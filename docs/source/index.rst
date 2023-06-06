@@ -19,6 +19,5 @@ Contents
 
    Installation
    create-new-component
-   usage
-   api
+   Creating-Robot-Configuration
    agent-cli
