@@ -1,14 +1,10 @@
-.. _`Installation`:
+.. _`Setup new agent`:
 
-Installation
+Setup new agent
 ===============================
 
 .. _`Nimbus`: index.md
 .. _`Nimbus Agent`:
-
-
-Connecting a Robot to Nimbus
-----------------------------
 
 Overview
 ~~~~~~~~
