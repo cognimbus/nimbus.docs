@@ -120,7 +120,7 @@ When you make a configuration public, it is visible in the Nimbus Hub.
 3. To revert to private, repeat the above procedure.
 
 .. |dots| image:: https://raw.githubusercontent.com/AriYakir/nimbus.docs/main/nimbus-assets/dots_icon.png
-   :width: 100px
+   :width: 2%
    :alt: Parameter settings 
 
 Deploying a configuration
