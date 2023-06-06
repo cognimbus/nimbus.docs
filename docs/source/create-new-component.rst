@@ -147,4 +147,4 @@ Add the new component to Nimbus Hub
 .. _Docker: https://www.docker.com
 .. _install: https://docs.docker.com/buildx/working-with-buildx
 .. _buildx: https://docs.docker.com/buildx/working-with-buildx
-.. _here: https://docs.docker
+.. _here: https://docs.docker.com/
