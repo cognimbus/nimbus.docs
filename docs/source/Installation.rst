@@ -7,7 +7,7 @@ Setup new agent
 .. _`Nimbus Agent`:
 
 Overview
-~~~~~~~~
+--------
 
 To manage and interact with a robot, the Nimbus agent must be installed.
 
@@ -20,7 +20,7 @@ The Nimbus agent:
 - Enables robots to be controlled from Nimbus
 
 Install the Nimbus agent
-~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 To create a new robot instance and install the Nimbus agent on your target platform (robot).
 
