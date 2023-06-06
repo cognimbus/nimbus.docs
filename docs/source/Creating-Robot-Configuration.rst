@@ -64,13 +64,15 @@ Adding a sensor driver
 3. From the list, select the required sensor driver type.
 4. From the list, select the required build version and click **ADD COMPONENT**.
    In the **Components** graphical area, a labeled terminal block, showing the sensor driver outputs, appears.
-5. In the sensor driver terminal block, click the |cogwheel| icon.
+5. In the sensor driver terminal block, click the 
+   .. image:: https://raw.githubusercontent.com/AriYakir/nimbus.docs/main/nimbus-assets/Parameters_control_cogwheel.PNG
+      :width: 100px
+      :alt: Parameter settings  
+      icon.
 6. From the **Required devices** drop-down list in the **Parameters** window, select the connected imaging device.
 7. Click **Close**.
 
-.. |cogwheel| image:: https://raw.githubusercontent.com/AriYakir/nimbus.docs/main/nimbus-assets/Parameters_control_cogwheel.PNG
-   :width: 100px
-   :alt: Parameter settings 
+
 
 Adding an algorithm
 -------------------
