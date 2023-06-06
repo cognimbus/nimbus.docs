@@ -17,6 +17,7 @@ Contents
 
 .. toctree::
 
+   Installation
    usage
    api
    agent-cli
