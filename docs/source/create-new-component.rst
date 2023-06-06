@@ -7,11 +7,8 @@ Create new component
 .. _`Create new component`:
 
 
-Adding Components
------------------
-
 Overview
-~~~~~~~~
+--------
 
 You can specify and create customized components (drivers and algorithms) for use in Nimbus. This procedure requires:
 
@@ -20,10 +17,10 @@ You can specify and create customized components (drivers and algorithms) for us
 - Uploading the JSON definition file (and optionally, a visual of the component) to Nimbus
 
 Create a Docker image for the component
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------
 
 Prerequisites
-~~~~~~~~~~~~~
+-------------
 
 Nimbus components (device drivers and algorithms) are initially developed and built as application code within ROS1, ROS2, or another robot software development framework of choice. To work within Nimbus, the native application code, its libraries, and dependencies need to be containerized by `Docker`_ (included during Nimbus system installation).
 
@@ -39,7 +36,7 @@ As of Docker version 1.13.0, Nimbus exploits Docker's experimental features. To 
    }
 
 Create a Dockerfile
-~~~~~~~~~~~~~~~~~~
+------------------
 
 A Dockerfile is a text-based list of commands for building a Docker container image of the native application code.
 
@@ -101,12 +98,12 @@ Refer to `here`_ for more details on how to construct a Dockerfile.
    sudo docker buildx build --platform linux/arm64,linux/amd64 -t <nameOfDockerHubRepository>/nameOfDockerImage --push .
 
 Create a component definition JSON file
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------
 
 After creating a Docker image for the new component and uploading it to Docker Hub, running the component within Nimbus requires a JSON file containing a definition of the component's parameters. An annotated template for a typical component definition JSON file is provided `here`_. This example JSON file can be easily modified and renamed for use in your Nimbus projects.
 
 Add the new component to Nimbus Hub
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------
 
 1. From the Side bar, click **Components**.
 2. Click the Add component button. The **Add Component** screen opens.
