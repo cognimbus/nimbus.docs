@@ -111,7 +111,7 @@ Add the new component to Nimbus Hub
 1. From the Side bar, click **Components**.
 2. Click the Add component button. The **Add Component** screen opens.
 
-   .. image:: https://github.com/AriYakir/nimbus.docs/blob/main/nimbus-assets/add-component-screen.png
+   .. image:: https://raw.githubusercontent.com/AriYakir/nimbus.docs/main/nimbus-assets/add-component-screen.png
       :width: 80%
       :alt: Nimbus Hub
 
