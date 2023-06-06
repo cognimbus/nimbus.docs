@@ -1,6 +1,6 @@
 .. _`Installation`:
 
-Connecting Your Robot to Nimbus
+Installation
 ===============================
 
 .. _`Nimbus`: index.md
