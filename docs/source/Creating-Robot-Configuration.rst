@@ -16,22 +16,23 @@ The procedure for configuring a robot requires:
 - Deploying the configuration to a robot or fleet
 
 Creating a New Configuration
---------------
+-----------------------------
 1. In the Side Bar, click **Configurations**.
 2. Click **CREATE NEW CONFIGURATION**.
 3. The **Add Configuration** screen is displayed.
 4. Set the Configuration name.
 5. Click **ADD**.
 
+
 Adding a robot/sensor
 ----------------------
 
 1. In the **Robot editor** tab click on the + button.
 2. The **Select device** menu is displayed.
-2. Enter the name of the robot/sensor or Choose a category and search your robot/sensor from the list.
-3. Click on the robot/sensor.
-4. Click **CONFIRM**.
-5. Place your robot/sensor in the desired position.
+3. Enter the name of the robot/sensor or Choose a category and search your robot/sensor from the list.
+4. Click on the robot/sensor.
+5. Click **CONFIRM**.
+6. Place your robot/sensor in the desired position.
 
 
 Adding components and data streams
@@ -67,7 +68,7 @@ Adding a sensor driver
 6. From the **Required devices** drop-down list in the **Parameters** window, select the connected imaging device.
 7. Click **Close**.
 
-.. |cogwheel| cogwheel:: https://raw.githubusercontent.com/AriYakir/nimbus.docs/main/nimbus-assets/Parameters_control_cogwheel.PNG
+.. |cogwheel| image:: https://raw.githubusercontent.com/AriYakir/nimbus.docs/main/nimbus-assets/Parameters_control_cogwheel.PNG
    :width: 100px
    :alt: Parameter settings 
 
@@ -118,7 +119,7 @@ When you make a configuration public, it is visible in the Nimbus Hub.
    A **Configuration set to public** message is briefly displayed.
 3. To revert to private, repeat the above procedure.
 
-.. |dots| dots:: https://raw.githubusercontent.com/AriYakir/nimbus.docs/main/nimbus-assets/dots_icon.png
+.. |dots| image:: https://raw.githubusercontent.com/AriYakir/nimbus.docs/main/nimbus-assets/dots_icon.png
    :width: 100px
    :alt: Parameter settings 
 
