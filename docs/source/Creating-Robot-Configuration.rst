@@ -114,6 +114,7 @@ Making a configuration public or private
 ----------------------------------------
 
 When you make a configuration public, it is visible in the Nimbus Hub.
+
 1. click the |dots| icon.
 2. Next to **Private Configuration**, click the slider switch .
    A **Configuration set to public** message is briefly displayed.
