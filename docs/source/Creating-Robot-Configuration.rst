@@ -69,7 +69,7 @@ Adding a sensor driver
 7. Click **Close**.
 
 .. |cogwheel| image:: https://raw.githubusercontent.com/AriYakir/nimbus.docs/main/nimbus-assets/Parameters_control_cogwheel.PNG
-   :width: 100%
+   :width: 20%
    :alt: Parameter settings 
 
 Adding an algorithm
