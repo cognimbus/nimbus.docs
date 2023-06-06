@@ -109,7 +109,7 @@ Add the new component to Nimbus Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. From the Side bar, click **Components**.
-2. Click ![Add component button](/nimbus-assets/Add_new_component_button.png). The **Add Component** screen opens.
+2. Click the Add component button. The **Add Component** screen opens.
 
    .. image:: /nimbus-assets/add-component-screen.png
       :width: 80%
@@ -121,9 +121,7 @@ Add the new component to Nimbus Hub
 4. From the drop-down list, select a license type.
    **Note:** If the **Public** toggle is set, a warning **Please check the license** is displayed.
 
-5. Click ![JSON upload button](/nimbus-assets/upload_json_file_button.PNG) and select the component definition JSON file from the directory. The uploaded file's name appears next to the **Upload JSON** button.
-
-   **Tip:** To upload the JSON file from the command line, enter `nimbus comp push <path_to_json_file>` in the terminal.
+5. Click JSON upload button and select the component definition JSON file from the directory. The uploaded file's name appears next to the **Upload JSON** button.
 
 6. **Optional:** To upload an image of the component, click **Upload Image**, select the file from the directory, and click **Open**.
 
@@ -138,10 +136,10 @@ Add the new component to Nimbus Hub
 9. **Optional:** In the **Add tags** text box, add meaningful tag names.
    **Tip:** Providing tags can be useful for finding and grouping related components during a search of your Docker image repository.
 
-10. Click ![Create button](/nimbus-assets/Create_button.PNG).
+10. Click Create button.
     The message **Component has been created** is briefly displayed at the bottom of the screen.
 
-11. To view the newly created component, select **Components** from the **MAIN** navigation bar.
+11. To view the newly created component, select **Components** from the Side bar.
     The new component's details appear at the top of the **Your components** list.
 
 .. _Docker: https://www.docker.com
