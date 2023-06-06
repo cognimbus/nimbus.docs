@@ -108,7 +108,7 @@ After creating a Docker image for the new component and uploading it to Docker H
 Add the new component to Nimbus Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. From the **MAIN** navigation pane, click **Configurations**.
+1. From the Side bar, click **Components**.
 2. Click ![Add component button](/nimbus-assets/Add_new_component_button.png). The **Add Component** screen opens.
 
    .. image:: /nimbus-assets/add-component-screen.png
