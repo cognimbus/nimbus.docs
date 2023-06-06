@@ -18,6 +18,7 @@ Contents
 .. toctree::
 
    Installation
+   create-new-component
    usage
    api
    agent-cli
