@@ -1,5 +1,6 @@
 Welcome to Nimbus documentation!
 ===================================
+<img stc="https://app.cognimbus.com/nimbus-assets/showcase_p1.gif">
 
 **Nimbus** is a platfrom for robot development.
 Log in to the system `here <https://app.cognimbus.com/>`_
