@@ -15,6 +15,13 @@ html_theme_options = {
     'logo_only': True,
     # ...
 }
+
+html_static_path = ["_static"]
+
+html_css_files = [
+    'css/rtd_dark.css',
+]
+
 html_logo = "../img/nimbus-logo.png"
 
 extensions = [
