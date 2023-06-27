@@ -23,7 +23,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_wagtail_theme'
+    'sphinx_wagtail_theme',
 ]
 
 intersphinx_mapping = {
