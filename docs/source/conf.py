@@ -23,7 +23,6 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_rtd_dark_mode',
 ]
 
 intersphinx_mapping = {
@@ -36,10 +35,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_dark_mode'
-
-# user starts in dark mode
-default_dark_mode = True
+html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
