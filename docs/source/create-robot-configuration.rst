@@ -15,7 +15,7 @@ The procedure for configuring a robot requires:
 - Connecting data streams between component inputs and outputs
 - Deploying the configuration to a robot or fleet
 
-Creating a New Configuration
+Create a configuration
 -----------------------------
 1. In the Side Bar, click **Configurations**.
 2. Click **CREATE NEW CONFIGURATION**.
@@ -24,7 +24,7 @@ Creating a New Configuration
 5. Click **ADD**.
 
 
-Adding a robot/sensor
+Add a robot/sensor
 ----------------------
 
 1. In the **Robot editor** tab click on the + button.
@@ -35,13 +35,13 @@ Adding a robot/sensor
 6. Place your robot/sensor in the desired position.
 
 
-Adding components and data streams
+Add a component
 ----------------------------------
 
 After the robot and sensor devices are specified, it is necessary to attach components (device drivers and algorithms).
 When created, components appear as graphical terminal block objects in the **Components** area.
 
-Adding a platform driver
+Add a platform driver
 ------------------------
 
 1. In the **Component editor** graphical area, click the + button.
@@ -56,7 +56,7 @@ Adding a platform driver
 
  
 
-Adding a sensor driver
+Add a sensor driver
 ----------------------
 
 1. In the **Component editor** graphical area, click the + button.
@@ -72,7 +72,7 @@ Adding a sensor driver
    :width: 2%
    :alt: Parameter settings 
 
-Adding an algorithm
+Add an algorithm
 -------------------
 
 1. In the **Component editor** graphical area, click the + button.
@@ -82,7 +82,7 @@ Adding an algorithm
 4. To modify algorithm parameters, in the terminal block, click **Advanced** and enter new parameter values.
 5. Click **Save changes**.
 
-Connecting data streams between components
+Connect between components
 ----------------------------------------
 
 To complete the configuration, data streams must be connected between the input and output terminals of the component blocks.
@@ -98,10 +98,8 @@ To complete the configuration, data streams must be connected between the input 
 - A terminal with a connected stream appears as a filled blue circle.
 - Component boxes can be moved and rearranged within the graphical area by dragging with the cursor. Data stream connectors adjust automatically.
 
-Additional actions
-------------------
 
-Providing a configuration description
+Provide a configuration description
 ------------------------------------
 
 Including a brief description for your new configuration is optional but recommended if you intend to make the configuration public in the Nimbus Hub.
@@ -110,8 +108,12 @@ Including a brief description for your new configuration is optional but recomme
 2. Enter the configuration description in the text box and click **submit**.
    The text box closes, and the description is displayed.
 
-Making a configuration public or private
+Publish a configuration
 ----------------------------------------
+
+.. note::
+
+   Only Nimbus organizations can publish to Nimbus hub
 
 When you make a configuration public, it is visible in the Nimbus Hub.
 
@@ -124,7 +126,7 @@ When you make a configuration public, it is visible in the Nimbus Hub.
    :width: 2%
    :alt: Parameter settings 
 
-Deploying a configuration
+Deploy a configuration
 -------------------------
 
 A configuration can be deployed to an individual robot, or to the entire fleet.
