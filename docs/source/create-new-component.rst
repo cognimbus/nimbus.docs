@@ -102,8 +102,12 @@ Create a component definition JSON file
 
 After creating a Docker image for the new component and uploading it to Docker Hub, running the component within Nimbus requires a JSON file containing a definition of the component's parameters. An annotated template for a typical component definition JSON file is provided `here`_. This example JSON file can be easily modified and renamed for use in your Nimbus projects.
 
-.. code-block:: json
+.. code-block:: yaml
+   :linenos:
 
+   /**
+    *  IMPORTANT When adapting this template for use in your application, please ensure to delete all comment fields (including this). Only valid JSON parameter:value pairs should remain!
+    */   
    {
       "name": "nimbus/hector",          ### Required, Component name
       "type": "COMPONENT_TYPE_COMPONENT",## Defines the type of the component (component/driver) inputs: "COMPONENT_TYPE_COMPONENT"/"COMPONENT_TYPE_DRIVER"
@@ -181,6 +185,8 @@ After creating a Docker image for the new component and uploading it to Docker H
          }
          ]
       },
+      ### In this section, the parameters represent messages in the Nimbus format that can enter and exit the component.
+      ### Nimbus messages viewed on Nimbus web are equivalent to ROS messages published between components.
       "streams": {
          "inputStreams": [
          {
@@ -223,6 +229,9 @@ After creating a Docker image for the new component and uploading it to Docker H
          },
          ]
       },
+      ### This section allows the component to view all devices using other components.
+      ### Using the ROS tf package, Nimbus maintains the relationship between the coordinate frames of connected
+      ### devices and the platform's base frame (e.g., base_link).
       "ros": {
          "base_frame": "base_link",  ### Platform's base frame
          "rate": 10.0,               ### rate of TF meseeages publish
@@ -232,6 +241,7 @@ After creating a Docker image for the new component and uploading it to Docker H
          "autoDetectIp": false       ### ????
       }
    }
+   ##### Additional parameters
       "inputStreams": [
          {
             "name": "odom",
@@ -254,6 +264,8 @@ After creating a Docker image for the new component and uploading it to Docker H
             }
          }
          ],
+   ### The section is used for configuring the component to access a particular device.
+   ### the device is identified by "productId" and "vendorId"
    "requiredDevices": [
          {
          "name": "laser",                    ### Device name
@@ -274,6 +286,13 @@ After creating a Docker image for the new component and uploading it to Docker H
          "mountAs": "/dev/ttyUSB0"           ### Used by Docker to launch the device driver file
          }
       ]
+   #########################################################
+   ### OPTION FOR RUNNING ROS COMPONENTS WITHOUT DOCKER ####
+   #########################################################
+   ### Using the modified "environment" and "parameters" sections, below, you can run a component as a native ROS process.
+   ### without the need to dockerize. This requires ROS to be installed on the robot's computer.
+   ###
+   ### Substitute this "environment" section in the above script when using a local component (ROS without docker):
    {
       "environment": {
          "rosLocalInfo": {
@@ -296,8 +315,8 @@ After creating a Docker image for the new component and uploading it to Docker H
             "stringValue": "http://192.168.1.32:11311"
          }
          ]
-      }
-~~~}
+      },
+~~~
 
 Add the new component to Nimbus Hub
 ----------------------------------
