@@ -161,11 +161,6 @@ This example JSON file can be easily modified and renamed for use in your Nimbus
             "description": "",
             "booleanValue": "true"
          }
-         {
-            "name": "ros_domain_id",      ### Domain ID for ROS2 example
-            "description": "The ros_domain_id",
-            "integerValue": "3"
-         },
          ]
       },
       ### In this section, the parameters represent messages in the Nimbus format that can enter and exit the component.
@@ -225,6 +220,7 @@ This example JSON file can be easily modified and renamed for use in your Nimbus
          "publishTfDevices":true,    ### Nimbus agent will create TF's from the device location in relation to base_frame and publish to the component 
          "rosMasterUri": "",         ### Equals to: export ROS_MASTER_URI=http://ip:11311 command
          "rosIp": "",                ### Equals to: export ROS_IP=ip command
+         "ros2DomainId": 0           ### Equals to: export ROS_DOMAIN_ID=number command    
       }
       ### The section is used for configuring the component to access a particular device.
       ### the device is identified by "productId" and "vendorId"
@@ -271,19 +267,6 @@ This example JSON file can be easily modified and renamed for use in your Nimbus
             "workspaceSetup": "/opt/ros/melodic/setup.bash",  ### The full path of the setup.bash file which is located in the workspace that we want to "source"
             "required": true
          }
-      }
-      "parameters": 
-      {
-         "parameters": [
-            {
-               "name": "ros_ip",               ### The IP address of the computer or network on which ROS is running
-               "stringValue": "192.168.1.32"
-            },
-            {
-               "name": "ros_master_uri",       ### The IP address set to the XML-RPC URI of the ROS Master
-               "stringValue": "http://192.168.1.32:11311"
-            }
-         ]
       }
    }
 ~~~
