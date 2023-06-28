@@ -21,7 +21,7 @@ Contents
 
 .. toctree::
 
-   Installation
+   setup
    create-new-component
-   Creating-Robot-Configuration
-   agent-cli
+   create-robot-configuration
+
