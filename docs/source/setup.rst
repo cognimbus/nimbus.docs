@@ -19,7 +19,7 @@ The Nimbus agent:
 - Gathers platform data and monitors robot status
 - Enables robots to be controlled from Nimbus
 
-Install the Nimbus agent
+Install the nimbus agent
 ----------------------------
 
 To create a new robot instance and install the Nimbus agent on your target platform (robot).
@@ -60,7 +60,7 @@ To create a new robot instance and install the Nimbus agent on your target platf
 
 
 The Nimbus agent CLI
-===================================
+----------------------------
 
 Overview
 
