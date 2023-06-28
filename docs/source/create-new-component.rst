@@ -7,35 +7,14 @@ Create new component
 .. _`Create new component`:
 
 
-Overview
---------
-
 You can specify and create customized components (drivers and algorithms) for use in Nimbus. This procedure requires:
 
 - Building a Docker image of the component and uploading it to the user's repository on Docker Hub
 - Creating a JSON definition file for the Nimbus component
 - Uploading the JSON definition file (and optionally, a visual of the component) to Nimbus
 
-Create a Docker image for the component
---------------------------------------
 
-Prerequisites
--------------
-
-Nimbus components (device drivers and algorithms) are initially developed and built as application code within ROS1, ROS2, or another robot software development framework of choice. To work within Nimbus, the native application code, its libraries, and dependencies need to be containerized by `Docker`_ (included during Nimbus system installation).
-
-Frequently, the development and target platforms each have different processor operating systems (such as arm64, amd64). In such cases, it is necessary to `install`_ the Docker `buildx`_ CLI plug-in.
-
-As of Docker version 1.13.0, Nimbus exploits Docker's experimental features. To enable this additional functionality, start the Docker daemon with the `--experimental` flag or enable the flag in the `/etc/docker/daemon.json` configuration file:
-
-.. code-block:: json
-   :linenos:
-
-   {
-    "experimental": true
-   }
-
-Create a Dockerfile
+Componet docker container
 ------------------
 
 A Dockerfile is a text-based list of commands for building a Docker container image of the native application code.
@@ -97,7 +76,7 @@ Refer to `here`_ for more details on how to construct a Dockerfile.
 
    sudo docker buildx build --platform linux/arm64,linux/amd64 -t <nameOfDockerHubRepository>/nameOfDockerImage --push .
 
-Create a component definition JSON file
+Component JSON file
 --------------------------------------
 
 After creating a Docker image for the new component and uploading it to Docker Hub, running the component within Nimbus requires a JSON file containing a definition of the component's parameters. 
@@ -271,8 +250,12 @@ This example JSON file can be easily modified and renamed for use in your Nimbus
    }
 ~~~
 
-Add the new component to Nimbus Hub
+Publish to Nimbus Hub
 ----------------------------------
+
+.. note::
+
+   Only Nimbus organizations can publish to Nimbus hub
 
 1. From the Side bar, click **Components**.
 2. Click the Add component button. The **Add Component** screen opens.
