@@ -191,18 +191,16 @@ This example JSON file can be easily modified and renamed for use in your Nimbus
          ]
       },
       ### This section allows the component to view all devices using other components.
-      ### Using the ROS tf package, Nimbus maintains the relationship between the coordinate frames of connected
-      ### devices and the platform's base frame (e.g., base_link).
       "ros": {
          "base_frame": "base_link",  ### Platform's base frame
-         "rate": 10.0,               ### rate of TF meseeages publish
+         "rate": 10.0,               ### rate of TF meseeages publish if needed
          "publishTfDevices":true,    ### Nimbus agent will create TF's from the device location in relation to base_frame and publish to the component 
          "rosMasterUri": "",         ### Equals to: export ROS_MASTER_URI=http://ip:11311 command
          "rosIp": "",                ### Equals to: export ROS_IP=ip command
          "ros2DomainId": 0           ### Equals to: export ROS_DOMAIN_ID=number command    
       }
       ### The section is used for configuring the component to access a particular device.
-      ### the device is identified by "productId" and "vendorId"
+      ### the physical device is identified if maching all the keys provided
       "requiredDevices": [
             {
             "name": "laser",                    ### Device name
@@ -210,13 +208,9 @@ This example JSON file can be easily modified and renamed for use in your Nimbus
                "type": "USB_PORT_TYPE_SERIAL",   ### Device type
                "productId": "ea60",              ### Device product id
                "vendorId": "10c4",               ### Device vendor id
-               "revision": "",
                "serial": "",
                "vendorName": "",
                "productName": "",
-               "attributes": {},
-               "ports": [],
-               "id": ""
             },
             "mountAs": "/dev/ttyUSB0"           ### Used by Docker container
             }
@@ -227,7 +221,7 @@ This example JSON file can be easily modified and renamed for use in your Nimbus
 
 .. note::
    
-   Using the modified "environment" and "parameters" sections, below, you can run a component as a native ROS process.
+   Using the modified "environment" below, you can run a component as a native ROS process.
    Substitute this "environment" section in the above script when using a local component (ROS without docker)
    without the need to dockerize. This requires ROS to be installed on the robot's computer.
 
