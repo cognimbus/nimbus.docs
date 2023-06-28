@@ -102,7 +102,7 @@ Create a component definition JSON file
 
 After creating a Docker image for the new component and uploading it to Docker Hub, running the component within Nimbus requires a JSON file containing a definition of the component's parameters. An annotated template for a typical component definition JSON file is provided `here`_. This example JSON file can be easily modified and renamed for use in your Nimbus projects.
 
-.. code-block:: json
+.. code-block:: bash
    :linenos:
 
    /**
