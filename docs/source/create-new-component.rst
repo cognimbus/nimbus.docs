@@ -105,6 +105,9 @@ After creating a Docker image for the new component and uploading it to Docker H
 .. code-block:: bash
    :linenos:
 
+   /**
+    *  IMPORTANT When adapting this template for use in your application, please ensure to delete all comment fields (including this). Only valid JSON parameter:value pairs should remain!
+    */   
    {
       "name": "nimbus/hector",          ### Required, Component name
       "type": "COMPONENT_TYPE_COMPONENT",## Defines the type of the component (component/driver) inputs: "COMPONENT_TYPE_COMPONENT"/"COMPONENT_TYPE_DRIVER"
