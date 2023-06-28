@@ -111,9 +111,6 @@ This example JSON file can be easily modified and renamed for use in your Nimbus
 .. code-block:: bash
    :linenos:
 
-   /**
-    *  
-    */   
    {
       "name": "nimbus/hector",           ### Required, Component name
       "className": "Ros1Component",      ### Required, Component class, inputs: "Ros1Component"/"Ros2Component"  
