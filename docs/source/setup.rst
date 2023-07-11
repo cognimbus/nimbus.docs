@@ -30,33 +30,55 @@ To create a new robot instance and install the Nimbus agent on your target platf
 
 3. Enter a unique name for your new robot.
 
-4. Optional. Click **Advanced**.
-
-5. If you wish immediately to assign the new robot to a fleet, select a fleet from the drop-down list.
-
-   If no fleet is selected or no fleets are available, the robot is assigned to the default fleet: **Private**.
-
-6. From the **Configuration** drop-down list, select an existing configuration.
-
-   The default is an empty configuration.
-
-7. Choose your Category,Subcategory and Industry.
-
-8. Click **+Create**.
+4. Click **+Create**.
 
    A new robot instance is created and assigned to the designated fleet.
 
    A Linux command, containing a unique API key, is displayed. This API key is also emailed to you.
 
-9. Your new robot's name appears in the **Robots** tab.
+5. Your new robot's name appears in the **Robots** tab.
 
-10. To install the Nimbus agent, copy the displayed Linux command and execute it from a terminal connected to your robot.
+6. To install the Nimbus agent, copy the displayed Linux command and execute it from a terminal connected to your robot.
 
    In the **Robots** tab, the robot's name is listed with a green indicator.
 
 **Note**: To display the agent installation line, enter the command ``nimbus system link``.
 
 .. _`purchased license`: https://www.cognimbus.com/pricing
+
+
+WSL2 support (WIP)
+----------------------------
+
+- It is possible to install the agent on Win11 Ubuntu 22.04 from admin powershell using
+.. code-block:: bash
+   :linenos:
+
+   wsl –install
+
+- Docker client should be installed before running the agent install script. Make sure you are able to run inside WSL2
+.. code-block:: bash
+   :linenos:
+
+   docker 
+
+- Since systemd is not yet seamlessly supported (July 2023) you will need to stop the service 
+
+.. code-block:: bash
+   :linenos:
+
+   sudo service nimbus stop 
+
+and run manually the agent using
+
+.. code-block:: bash
+   :linenos:
+
+   sudo /bin/nimbusd 
+
+- Please note that usb passthrough is only supported through Usbipd-win (WIP)
+
+
 
 
 The Nimbus agent CLI
