@@ -1,5 +1,5 @@
-Nimbus Docs 
+Welcome to Nimbus  
 =======================================
 
-This GitHub includes documentation for the Nimbus system.
-
+The Cloud Robotics Ecosystem for monitoring, developing, deploying,
+and managing a single robot or a fleet of robots
