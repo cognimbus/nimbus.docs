@@ -6,11 +6,11 @@ Setup new agent
 .. _`Nimbus`: index.md
 .. _`Nimbus Agent`:
 
-   .. image:: /img/Tux.png
+   .. image:: ../img/Tux.png
       :width: 20%
      
      
-   .. image:: /img/Win.png
+   .. image:: ../img/Win.png
       :width: 20%
      
 Overview
