@@ -8,13 +8,11 @@ Setup new agent
 
    .. image:: https://github.com/cognimbus/nimbus.docs/blob/main/docs/img/Tux.png
       :width: 20%
-      :target: #lin_install
-
-
-   .. image:: https://github.com/cognimbus/nimbus.docs/blob/main/docs/img/Win.png
+     
+     
+   .. image:: docs/img/Win.png
       :width: 20%
-      :target: #win_install
-
+     
 Overview
 --------
 
