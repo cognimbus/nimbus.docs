@@ -1,8 +1,8 @@
 Welcome to Nimbus documentation!
 ===================================
 
-.. image:: https://app.cognimbus.com/nimbus-assets/showcase_p1.gif
-      :width: 80%
+.. image:: ../img/cog-hero2.webp
+      :width: 40%
       :alt: Nimbus Showcase
 
 **Nimbus** is a cloud based platfrom for robot development.
