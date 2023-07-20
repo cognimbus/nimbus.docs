@@ -11,12 +11,24 @@ Log in to the system `here <https://app.cognimbus.com/>`_
 
    This documentation is under active development.
 
-Contents
---------
+Installation Guide
+===============================
 
-.. toctree::
+Choose your OS 
 
-   installation-guide
-   create-new-component
-   create-robot-configuration
+.. _`Nimbus`: index.md
+.. _`Nimbus Agent`:
+
+   .. image:: ../img/Tux.png
+      :width: 100px
+      :target: installation-guide.rst#install-nimbus-agent-on-linux
+
+   .. image:: ../img/Docker.png
+      :width: 100px
+      :target: installation-guide.rst#install-nimbus-agent-dockerized
+
+
+   .. image:: ../img/Win.png
+      :width: 100px
+      :target: installation-guide.rst#install-nimbus-agent-in-wsl2
 
