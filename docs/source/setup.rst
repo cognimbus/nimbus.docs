@@ -7,12 +7,14 @@ Setup new agent
 .. _`Nimbus Agent`:
 
    .. image:: ../img/Tux.png
-      :width: 20%
-     
-     
+      :width: 100px
+      :target: #lin_install
+
+
    .. image:: ../img/Win.png
-      :width: 20%
-     
+      :width: 100px
+      :target: #win_install
+
 Overview
 --------
 
