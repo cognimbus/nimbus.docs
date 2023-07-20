@@ -11,12 +11,16 @@ Check out our partners robots
 .. _rover:
 
 
+----------------------------
 .. image:: ../img/robots/Rover.png
    :width: 300px
    :target: https://roverrobotics.com/en-il
+
+- Check out our ROS2 component for the `Rover Mini  <https://github.com/cognimbus/Nimbus.Library.Components.ROS2/tree/master/rover-mini-driver>`_
+.. code-block:: bash
+   :linenos:
+
+   docker run -it --network=host --privileged -v /etc/udev/rules.d/:/etc/udev/rules.d/ cognimbus/rover-mini-driver:latest ros2 launch roverrobotics_driver mini.launch.py
+
+
 ----------------------------
-
-
-- Rover Robotics is a robotic startup creating robots ready for research and development as well as full project deployment offering a wide range of payload capacity, speed, and accessories.
-- Rover Robotics aims to provide a tested and trusted mobile platform to quickly advance your research, testing, and deployment of any robotics project!
-- Rover Robotics products are proven to shine in the toughest environments, providing a reliable ground platform for any application. Compatible with ROS/ROS2, all robots are highly customizable and can be easily implemented into any project.

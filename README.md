@@ -12,6 +12,6 @@ Contributing to this project
 ```
   .. image:: ../img/<put images in this folder> 
       :width: i.e. 100px or 50%
-      :target: <file name>.html#<anchor>, to make an image press refdirect to that target
+      :target: <file name>.html#<anchor>, to make an image press redirect to that target
       :class: hover-popout for popping out, or without 
 ```
