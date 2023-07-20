@@ -11,16 +11,17 @@ Choose your OS
    .. image:: ../img/Tux.png
       :width: 100px
       :target: #install-nimbus-agent-on-linux
+      :class: hover-popout
 
    .. image:: ../img/Docker.png
       :width: 100px
       :target: #install-nimbus-agent-dockerized
-
+      :class: hover-popout
 
    .. image:: ../img/Win.png
       :width: 100px
       :target: #install-nimbus-agent-in-wsl2
-
+      :class: hover-popout
 
 
 

@@ -20,12 +20,13 @@ Choose your OS
    .. image:: ../img/Docker.png
       :width: 100px
       :target: installation-guide.html#install-nimbus-agent-dockerized
+      :class: hover-popout
 
 
    .. image:: ../img/Win.png
       :width: 100px
       :target: installation-guide.html#install-nimbus-agent-in-wsl2
-
+      :class: hover-popout
 
 
 .. note::
