@@ -30,7 +30,7 @@ The Nimbus agent:
 
 .. _lin_install:
 
-Install the nimbus agent
+Install nimbus agent on Linux 
 ----------------------------
 
 To create a new robot instance and install the Nimbus agent on your target platform (robot).
@@ -60,10 +60,11 @@ To create a new robot instance and install the Nimbus agent on your target platf
 
 .. _win_install:
 
-WSL2 support (WIP)
+Install nimbus agent in WSL2 (WIP)
 ----------------------------
 
-- It is possible to install the agent on Win11 Ubuntu 22.04 from admin powershell using
+- It is possible to install the agent on Win11 Ubuntu 22.04. 
+- First install WSL2 from admin powershell using
 .. code-block:: bash
    :linenos:
 
@@ -75,14 +76,15 @@ WSL2 support (WIP)
 
    docker 
 
-- Since systemd is not yet seamlessly supported (July 2023) you will need to stop the service 
+- Now create the agent just using the Linux regular installation procedure 
+- Since systemd is not yet seamlessly supported (July 2023) you will need to stop the nimbus service after installation completes
 
 .. code-block:: bash
    :linenos:
 
    sudo service nimbus stop 
 
-and run manually the agent using
+- Then run the agent manually using
 
 .. code-block:: bash
    :linenos:
