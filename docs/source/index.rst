@@ -14,16 +14,16 @@ Choose your OS
 
    .. image:: ../img/Tux.png
       :width: 100px
-      :target: installation-guide.rst#install-nimbus-agent-on-linux
+      :target: installation-guide.html#install-nimbus-agent-on-linux
 
    .. image:: ../img/Docker.png
       :width: 100px
-      :target: installation-guide.rst#install-nimbus-agent-dockerized
+      :target: installation-guide.html#install-nimbus-agent-dockerized
 
 
    .. image:: ../img/Win.png
       :width: 100px
-      :target: installation-guide.rst#install-nimbus-agent-in-wsl2
+      :target: installation-guide.html#install-nimbus-agent-in-wsl2
 
 
 
