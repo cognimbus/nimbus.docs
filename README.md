@@ -9,10 +9,9 @@ Contributing to this project
 
 - To add images 
 
-.. code-block:: bash
-   :linenos:
-
+```
   .. image:: ../img/<put images in this folder> 
       :width: i.e. 100px or 50%
       :target: <file name>.html#<anchor>, to make an image press refdirect to that target
       :class: hover-popout for popping out, or without 
+```
