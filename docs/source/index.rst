@@ -41,7 +41,7 @@ Contents
    installation-guide
    robots
    sensors
-   compute-platfroms   
+   compute-platforms   
    create-new-component
    create-robot-configuration
 

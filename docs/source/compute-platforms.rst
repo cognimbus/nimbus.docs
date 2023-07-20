@@ -4,6 +4,10 @@ Compute platforms
 Check out these awesome compute boards
 
 
+   .. image:: ../img/compute/xavier_nx.jpg
+      :width: 100px
+      :class: hover-popout
+
 
 .. _nvidia:
 
