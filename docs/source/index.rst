@@ -1,5 +1,3 @@
-Welcome to Nimbus documentation!
-===================================
 
 .. image:: ../img/cog-hero2.webp
       :width: 80%
