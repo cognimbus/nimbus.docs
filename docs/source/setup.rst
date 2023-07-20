@@ -6,6 +6,15 @@ Setup new agent
 .. _`Nimbus`: index.md
 .. _`Nimbus Agent`:
 
+.. image:: img/Tux.png
+   :width: 60
+   :target: #lin_install
+
+
+.. image:: img/Win.png
+   :width: 60
+   :target: #win_install
+
 Overview
 --------
 
@@ -18,6 +27,8 @@ The Nimbus agent:
 - Installs and manages robot configurations (devices and components)
 - Gathers platform data and monitors robot status
 - Enables robots to be controlled from Nimbus
+
+.. _lin_install:
 
 Install the nimbus agent
 ----------------------------
@@ -46,6 +57,8 @@ To create a new robot instance and install the Nimbus agent on your target platf
 
 .. _`purchased license`: https://www.cognimbus.com/pricing
 
+
+.. _win_install:
 
 WSL2 support (WIP)
 ----------------------------
