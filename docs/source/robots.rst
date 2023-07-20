@@ -1,10 +1,14 @@
 .. _`Setup new agent`:
 
-Check out our partners robots
+Robot platforms
 ===============================
+
 
 .. _`Nimbus`: index.md
 .. _`Nimbus Agent`:
+
+
+Check out our partners robots
 
    .. image:: ../img/robots/Rover.png
       :width: 100px
