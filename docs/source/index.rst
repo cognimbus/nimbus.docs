@@ -40,6 +40,8 @@ Contents
 
    installation-guide
    robots
+   sensors
+   compute-platfroms   
    create-new-component
    create-robot-configuration
 

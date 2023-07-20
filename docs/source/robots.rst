@@ -1,12 +1,5 @@
-.. _`Setup new agent`:
-
 Robot platforms
 ===============================
-
-
-.. _`Nimbus`: index.md
-.. _`Nimbus Agent`:
-
 
 Check out our partners robots
 
