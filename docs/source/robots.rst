@@ -1,0 +1,22 @@
+.. _`Setup new agent`:
+
+Check out our partners robots
+===============================
+
+.. _`Nimbus`: index.md
+.. _`Nimbus Agent`:
+
+   .. image:: ../img/robots/Rover.png
+      :width: 100px
+      :target: #rover
+      :class: hover-popout
+
+.. _rover:
+
+Rover 
+----------------------------
+
+- Rover Robotics aims to provide a tested and trusted mobile platform to quickly advance your research, testing, and deployment of any robotics project!
+- Rover Robotics products are proven to shine in the toughest environments, providing a reliable ground platform for any application. Compatible with ROS/ROS2, all robots are highly customizable and can be easily implemented into any project.
+
+.. _`rover_website`: https://roverrobotics.com/en-il
