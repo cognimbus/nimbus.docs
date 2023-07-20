@@ -12,10 +12,17 @@ Choose your OS
       :width: 100px
       :target: #install-nimbus-agent-on-linux
 
+   .. image:: ../img/Docker.png
+      :width: 100px
+      :target: #install-nimbus-agent-dockerized
+
 
    .. image:: ../img/Win.png
       :width: 100px
       :target: #install-nimbus-agent-in-wsl2
+
+
+
 
 Overview
 --------
@@ -58,6 +65,15 @@ To create a new robot instance and install the Nimbus agent on your target platf
 **Note**: To display the agent installation line, enter the command ``nimbus system link``.
 
 .. _`purchased license`: https://www.cognimbus.com/pricing
+
+
+.. _lin_install_docker:
+
+Install nimbus agent dockerized
+----------------------------
+
+- Nimbus can be installed as a doker  
+- Just add --docker at the end of the install script and it will install the docker container with the agent in it
 
 
 .. _win_install:
