@@ -8,12 +8,12 @@ Setup new agent
 
    .. image:: ../img/Tux.png
       :width: 100px
-      :target: #lin_install
+      :target: #install-nimbus-agent-on-linux
 
 
    .. image:: ../img/Win.png
       :width: 100px
-      :target: #win_install
+      :target: #install-nimbus-agent-in-wsl2
 
 Overview
 --------
@@ -60,7 +60,7 @@ To create a new robot instance and install the Nimbus agent on your target platf
 
 .. _win_install:
 
-Install nimbus agent in WSL2 (WIP)
+Install nimbus agent in WSL2 
 ----------------------------
 
 - It is possible to install the agent on Win11 Ubuntu 22.04. 
