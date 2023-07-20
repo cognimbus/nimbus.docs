@@ -15,6 +15,7 @@ Choose your OS
    .. image:: ../img/Tux.png
       :width: 100px
       :target: installation-guide.html#install-nimbus-agent-on-linux
+      :class: hover-popout
 
    .. image:: ../img/Docker.png
       :width: 100px
