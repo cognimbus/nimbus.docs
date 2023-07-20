@@ -1,7 +1,9 @@
 .. _`Setup new agent`:
 
-Setup new agent
+Installation Guide
 ===============================
+
+Choose your OS 
 
 .. _`Nimbus`: index.md
 .. _`Nimbus Agent`:
