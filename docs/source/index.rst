@@ -39,6 +39,7 @@ Contents
 .. toctree::
 
    installation-guide
+   robots
    create-new-component
    create-robot-configuration
 
