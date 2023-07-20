@@ -48,3 +48,19 @@ html_theme = 'sphinx_rtd_theme'
 epub_show_urls = 'footnote'
 
 html_favicon = 'favicon.ico'
+
+def get_edit_url():
+    return "https://github.com/cognimbus/nimbus.docs"
+
+html_context = {
+    "display_github": True, # Integrate GitHub
+    "github_user": "Nimbus", # Username
+    "github_repo": "nimbus.docs", # Repo name
+    "github_version": "main", # Version
+    "edit_on_github": True,
+    "edit_on_github_name": "Edit on GitHub",
+    "edit_on_github_project": "cognimbus/nimbus.docs",
+    "edit_on_github_branch": "main",
+    "edit_on_github_src_path": "README.md", # Path in the checkout to the docs root
+    "get_edit_on_github_url": get_edit_url,
+}
