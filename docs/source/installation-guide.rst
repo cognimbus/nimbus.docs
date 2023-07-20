@@ -37,7 +37,7 @@ The Nimbus agent:
 - Gathers platform data and monitors robot status
 - Enables robots to be controlled from Nimbus
 
-.. _lin_install:
+.. _install-nimbus-agent-on-linux:
 
 Install nimbus agent on Linux 
 ----------------------------
@@ -67,7 +67,7 @@ To create a new robot instance and install the Nimbus agent on your target platf
 .. _`purchased license`: https://www.cognimbus.com/pricing
 
 
-.. _lin_install_docker:
+.. _install-nimbus-agent-dockerized:
 
 Install nimbus agent dockerized
 ----------------------------
@@ -76,7 +76,7 @@ Install nimbus agent dockerized
 - Just add --docker at the end of the install script and it will install the docker container with the agent in it
 
 
-.. _win_install:
+.. _install-nimbus-agent-in-wsl2:
 
 Install nimbus agent in WSL2 
 ----------------------------
