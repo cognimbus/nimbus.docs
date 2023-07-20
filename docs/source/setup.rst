@@ -6,12 +6,12 @@ Setup new agent
 .. _`Nimbus`: index.md
 .. _`Nimbus Agent`:
 
-.. image:: img/Tux.png
+.. image:: https://github.com/cognimbus/nimbus.docs/blob/main/docs/img/Tux.png
    :width: 60
    :target: #lin_install
 
 
-.. image:: img/Win.png
+.. image:: https://github.com/cognimbus/nimbus.docs/blob/main/docs/img/Win.png
    :width: 60
    :target: #win_install
 
