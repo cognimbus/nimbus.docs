@@ -56,10 +56,10 @@ Choose your compute platform
         :class: hover-popout
         :target: compute-platforms.html#nvidia
 
-    .. image:: ../img/compute/jetson-orin-dev-kit.png
+    .. image:: ../img/compute/jetson-orin.png
         :width: 100px
         :class: hover-popout
-        :target: #nvidia-jetson-orin
+        :target: compute-platforms.html##nvidia-jetson-orin
 
 
 
