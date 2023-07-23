@@ -18,10 +18,10 @@ Check out these awesome robots
 Rover Mini 
 ----------------------------
    .. raw:: html 
-      
+
     <div class="image-link">
-        <a href=":ref:`target_anchor`">
-            <img src="../img/robots/Rover.png" alt="Image description" />
+        <a href="robots.html#rover">
+            <img src="_static/img/robots/Rover.png" alt="Image description" />
         </a>
     </div>
 
