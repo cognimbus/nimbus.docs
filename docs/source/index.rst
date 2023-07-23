@@ -12,18 +12,18 @@ Installation Guide
 
 Choose your OS 
 
-   .. image:: ../img/Tux.png
+   .. image:: _static/img/Tux.png
       :width: 100px
       :target: installation-guide.html#install-nimbus-agent-on-linux
       :class: hover-popout
 
-   .. image:: ../img/Docker.png
+   .. image:: _static/img/Docker.png
       :width: 100px
       :target: installation-guide.html#install-nimbus-agent-dockerized
       :class: hover-popout
 
 
-   .. image:: ../img/Win.png
+   .. image:: _static/img/Win.png
       :width: 100px
       :target: installation-guide.html#install-nimbus-agent-in-wsl2
       :class: hover-popout
@@ -31,32 +31,32 @@ Choose your OS
 
 Choose your compute platform
 
-    .. image:: ../img/compute/raspberry-pi-zero.png
+    .. image:: _static/img/compute/raspberry-pi-zero.png
         :width: 100px
         :class: hover-popout
         :target: compute-platforms.html#raspberry-pi-zero-w2
 
-    .. image:: ../img/compute/raspberry-pi-3.png
+    .. image:: _static/img/compute/raspberry-pi-3.png
         :width: 100px
         :class: hover-popout
         :target: compute-platforms.html#raspberry-pi3
 
-    .. image:: ../img/compute/raspberry-pi-4.png
+    .. image:: _static/img/compute/raspberry-pi-4.png
         :width: 100px
         :class: hover-popout
         :target: compute-platforms.html#raspberry-pi4
 
-    .. image:: ../img/compute/jetson-nano.png
+    .. image:: _static/img/compute/jetson-nano.png
         :width: 100px
         :class: hover-popout
         :target: compute-platforms.html#nvidia
 
-    .. image:: ../img/compute/jetson-xavier-nx.png
+    .. image:: _static/img/compute/jetson-xavier-nx.png
         :width: 100px
         :class: hover-popout
         :target: compute-platforms.html#nvidia
 
-    .. image:: ../img/compute/jetson-orin.png
+    .. image:: _static/img/compute/jetson-orin.png
         :width: 100px
         :class: hover-popout
         :target: compute-platforms.html##nvidia-jetson-orin
