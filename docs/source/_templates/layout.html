@@ -121,9 +121,15 @@
 	}
 
 	.image-link {
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.2);  /* Semi-transparent white background */
-    border-radius: 5px;  /* Rounded corners */
+		display: inline-block;
+		background-color: rgba(255, 255, 255, 0.2);  /* Semi-transparent white background */
+		border-radius: 5px;  /* Rounded corners */
+		transition: all 0.3s ease-in-out;  /* Transition effect for the hover state */
+	}
+
+	.image-link:hover {
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  /* Shadow effect when hovered */
+		transform: scale(1.05);  /* Slightly scale up the image when hovered */
 	}
 
 	.image-link img {
