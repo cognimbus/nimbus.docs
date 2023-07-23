@@ -69,6 +69,7 @@ Choose your compute platform
 
    This documentation is under active development.
 
+.. must add the page here in order to see it on the side menu
 
 .. toctree::
    :hidden:
