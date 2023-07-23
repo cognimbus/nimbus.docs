@@ -43,15 +43,24 @@ Check out these awesome compute boards
 .. _rpi-zero:
 Raspberry Pi Zero W2
 ----------------------------
-
+- Just as small. Five times as fast. At the heart of Raspberry Pi Zero 2 W is RP3A0, a custom-built system-in-package designed by Raspberry Pi in the UK. With a quad-core 64-bit ARM Cortex-A53 processor clocked at 1GHz and 512MB of SDRAM, Zero 2 is up to five times as fast as the original Raspberry Pi Zero.
+- Check out `Raspberry Pi Zero W2  <https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/>`_
+- To get started with your board follow `these instructions  <https://www.raspberrypi.com/documentation/computers/getting-started.html/>`_
 
 .. _rpi3:
 Raspberry Pi3
 ----------------------------
+- 1.4GHz 64-bit quad-core processor, dual-band wireless LAN, Bluetooth 4.2/BLE, faster Ethernet, and Power-over-Ethernet support (with separate PoE HAT)
+- Check out `Raspberry Pi 3B+  https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/>`_
+- To get started with your board follow `these instructions  <https://www.raspberrypi.com/documentation/computers/getting-started.html>`_
 
 .. _rpi4:
 Raspberry Pi4
 ----------------------------
+
+-Your tiny, dual-display, desktop computer and robot brains, smart home hub, media centre, networked AI core, factory controller, and much more
+- Check out `Raspberry Pi 4  <https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/>`_
+- To get started with your board follow `these instructions  <https://www.raspberrypi.com/documentation/computers/getting-started.html>`_
 
 
 .. _nvidia-nano:
