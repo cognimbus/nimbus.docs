@@ -33,6 +33,11 @@ Check out these awesome compute boards
         :class: hover-popout
         :target: #nvidia-jetson-orin
 
+    .. image:: ../img/compute/jetson-orin-dev-kit.png
+        :width: 100px
+        :class: hover-popout
+        :target: #nvidia-jetson-orin
+
 
 
 
