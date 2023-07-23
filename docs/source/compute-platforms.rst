@@ -59,7 +59,7 @@ Raspberry Pi4
 ----------------------------
 
 - Your tiny, dual-display, desktop computer and robot brains, smart home hub, media centre, networked AI core, factory controller, and much more
-- Check out `Raspberry Pi 4  <https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/>`_
+- Check out `Raspberry Pi 4  <https://www.raspberrypi.com/products/raspberry-pi-4-model-b//>`_
 - To get started with your board follow `these instructions  <https://www.raspberrypi.com/documentation/computers/getting-started.html>`_
 
 
