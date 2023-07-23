@@ -15,8 +15,7 @@ Check out these awesome robots
 
 
 .. _rover:
-Rover Mini 
-----------------------------
+
    .. raw:: html 
 
     <div class="image-link">
@@ -25,12 +24,8 @@ Rover Mini
         </a>
     </div>
 
-
-
-   .. image:: ../img/robots/Rover.png
-      :width: 100px
-      :target: #rover
-      :class: hover-popout
+Rover Mini 
+----------------------------
 
 - Check out our ROS2 component for the `Rover Mini  <https://github.com/cognimbus/Nimbus.Library.Components.ROS2/tree/master/rover-mini-driver>`_
 - You can run it using 
@@ -42,13 +37,16 @@ Rover Mini
 
 
 .. _leo:
+
+   .. raw:: html 
+
+    <div class="image-link">
+        <a href="robots.html#rover">
+            <img src="_static/img/robots/Leo.png" alt="Image description" />
+        </a>
+    </div>
+
 Leo Rover 
 ----------------------------
-
- .. image:: ../img/robots/Leo.png
-      :width: 100px
-      :target: https://www.leorover.tech
-      :class: hover-popout
-
 
 - Check out `Leo Rover  <https://www.leorover.tech/>`_
