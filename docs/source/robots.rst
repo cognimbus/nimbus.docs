@@ -4,12 +4,12 @@ Robot platforms
 Check out these awesome robots
 
    .. image:: ../img/robots/rover/rover-mini.png
-      :width: 100px
+      :width: 200px
       :target: #rover
       :class: hover-popout
 
    .. image:: ../img/robots/leo/Leo.png
-      :width: 100px
+      :width: 200px
       :target: #leo
       :class: hover-popout
 
