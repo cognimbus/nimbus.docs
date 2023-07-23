@@ -34,32 +34,32 @@ Choose your compute platform
     .. image:: ../img/compute/raspberry-pi-zero.png
         :width: 100px
         :class: hover-popout
-        :target: #raspberry-pi-zero-w2
+        :target: compute-platforms.html#raspberry-pi-zero-w2
 
     .. image:: ../img/compute/raspberry-pi-3.png
         :width: 100px
         :class: hover-popout
-        :target: #raspberry-pi3
+        :target: compute-platforms.html#raspberry-pi3
 
     .. image:: ../img/compute/raspberry-pi-4.png
         :width: 100px
         :class: hover-popout
-        :target: #raspberry-pi4
+        :target: compute-platforms.html#raspberry-pi4
 
     .. image:: ../img/compute/jetson-nano.png
         :width: 100px
         :class: hover-popout
-        :target: #nvidia
+        :target: compute-platforms.html#nvidia
 
     .. image:: ../img/compute/jetson-xavier-nx.png
         :width: 100px
         :class: hover-popout
-        :target: #nvidia
+        :target: compute-platforms.html#nvidia
 
     .. image:: ../img/compute/jetson-agx-orin-dev-kit.png
         :width: 100px
         :class: hover-popout
-        :target: #nvidia
+        :target: compute-platforms.html#nvidia
 
 
 
