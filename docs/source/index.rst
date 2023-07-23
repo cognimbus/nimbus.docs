@@ -37,7 +37,8 @@ Contents
 --------
 
 .. toctree::
-
+   :hidden:
+   
    installation-guide
    robots
    sensors
