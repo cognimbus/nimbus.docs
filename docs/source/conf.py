@@ -27,11 +27,17 @@ html_css_files = [
 html_logo = "../img/nimbus-logo.png"
 
 extensions = [
+    'myst_parser',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+]
+
+source_suffix = [
+    ".rst",
+    ".md",
 ]
 
 intersphinx_mapping = {
