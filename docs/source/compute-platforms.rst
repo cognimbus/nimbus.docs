@@ -28,7 +28,7 @@ Check out these awesome compute boards
         :class: hover-popout
         :target: #nvidia
 
-    .. image:: ../img/compute/jetson-orin-dev-kit.png
+    .. image:: ../img/compute/jetson-orin.png
         :width: 100px
         :class: hover-popout
         :target: #nvidia-jetson-orin
