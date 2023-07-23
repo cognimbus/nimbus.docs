@@ -5,12 +5,12 @@ Check out these awesome lidars
 
    .. image:: ../img/sensors/olei2D.jpg
       :width: 200px
-      :target: #olei2D
+      :target: #olei-2d-lidar
       :class: hover-popout
 
    .. image:: ../img/sensors/olei3D.jpg
       :width: 200px
-      :target: #olei3D
+      :target: #olei-3d-lidar
       :class: hover-popout
 
 
@@ -19,7 +19,7 @@ Check out these awesome lidars
    .. raw:: html 
 
     <div class="image-link">
-        <a href="sensors.html#olei">
+        <a href="sensors.html#olei-2d-lidar">
             <img src="_static/img/sensors/olei_logo.png" alt="Image description" />
         </a>
     </div>
