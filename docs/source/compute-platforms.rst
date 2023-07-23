@@ -51,7 +51,7 @@ Raspberry Pi Zero W2
 Raspberry Pi3
 ----------------------------
 - 1.4GHz 64-bit quad-core processor, dual-band wireless LAN, Bluetooth 4.2/BLE, faster Ethernet, and Power-over-Ethernet support (with separate PoE HAT)
-- Check out `Raspberry Pi 3B+  https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/>`_
+- Check out `Raspberry Pi 3B+  <https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/>`_
 - To get started with your board follow `these instructions  <https://www.raspberrypi.com/documentation/computers/getting-started.html>`_
 
 .. _rpi4:
