@@ -119,5 +119,20 @@
 	img.hover-popout:hover {
 	transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 	}
+
+	.image-link {
+		display: inline-block;
+		background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent black background */
+		border-radius: 5px;  /* Rounded corners */
+	}
+
+	.image-link img {
+		display: block;
+		margin: 10px;  /* Space between image and edge of div */
+	}
+
+	.image-link:active {
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);  /* Shadow effect when clicked */
+	}
   </style>
 {% endblock %}
