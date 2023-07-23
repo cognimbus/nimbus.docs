@@ -79,4 +79,3 @@ Choose your compute platform
    compute-platforms   
    create-new-component
    create-robot-configuration
-   TEST
