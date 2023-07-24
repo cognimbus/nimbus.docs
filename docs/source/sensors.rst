@@ -18,6 +18,10 @@ Check out these awesome lidars
       :target: #velodyne
       :class: hover-popout
 
+   .. image:: _static/img/sensors/lakibeam.png
+      :width: 200px
+      :target: #richbeam
+      :class: hover-popout
 
 .. _olei:
 
