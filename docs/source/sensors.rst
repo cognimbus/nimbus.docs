@@ -13,6 +13,11 @@ Check out these awesome lidars
       :target: #olei-3d-lidar
       :class: hover-popout
 
+   .. image:: _static/img/sensors/Velodyne_Puck-1.png
+      :width: 200px
+      :target: #velodyne
+      :class: hover-popout
+
 
 .. _olei:
 
@@ -34,7 +39,7 @@ Olei 2D Lidar
 .. code-block:: bash
    :linenos:
 
-docker run -it --network=host cognimbus/olei-lidar-driver:foxy ros2 launch ros2_ouster ole2dv2_launch.py laser_frame:=laser lidar_ip:=192.168.1.100 computer_ip:=192.168.1.10 lidar_port:=2368 imu_port:=9866
+    docker run -it --network=host cognimbus/olei-lidar-driver:foxy ros2 launch ros2_ouster ole2dv2_launch.py laser_frame:=laser lidar_ip:=192.168.1.100 computer_ip:=192.168.1.10 lidar_port:=2368 imu_port:=9866
    
 
 
@@ -48,4 +53,4 @@ Olei 3D Lidar
 .. code-block:: bash
    :linenos:
 
-docker run -it --network=host cognimbus/olei-lidar-driver:foxy ros2 launch ros2_ouster ole3dv2_launch.py laser_frame:=laser lidar_ip:=192.168.1.100 computer_ip:=192.168.1.10 lidar_port:=2368 imu_port:=9866
+    docker run -it --network=host cognimbus/olei-lidar-driver:foxy ros2 launch ros2_ouster ole3dv2_launch.py laser_frame:=laser lidar_ip:=192.168.1.100 computer_ip:=192.168.1.10 lidar_port:=2368 imu_port:=9866
