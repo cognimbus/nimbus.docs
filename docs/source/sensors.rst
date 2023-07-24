@@ -29,9 +29,23 @@ Olei 2D Lidar
 ----------------------------
 - LR-1BS is based on our proven 1B development platform to meet developed in the industrial and commercial industries for cost and size requirements. It can satisfy the vast majority need for mobile robots and automatic guided vehicles (AGV) for safe obstacle avoidance.
 - LR-1BS is suitable for application needs in diferent industries, such as robotics, security and surveillance, industrial automation and smart logistics.
+- You can test it using 
+
+.. code-block:: bash
+   :linenos:
+
+docker run -it --network=host cognimbus/olei-lidar-driver:foxy ros2 launch ros2_ouster ole2dv2_launch.py laser_frame:=laser lidar_ip:=192.168.1.100 computer_ip:=192.168.1.10 lidar_port:=2368 imu_port:=9866
+   
+
 
 
 Olei 3D Lidar
 ----------------------------
 - LR-16F is a small size and multi-channel LiDAR developed by OLEI-Systems with proprietary technologies. LR-16F has 360°(Horizontal) and ±15°(Vertical) scanning angles, 100mdetection range. It is primarily designed for a variety of industrial autonomous applications such as AGV, Automatic Forklift, Patrol Robots, and Inspection Robots. It can also be used for other applications such as mobile mapping, 3D measurement etc.
 - LR-16F LiDAR has undergone rigorous calibration, inspection and verifcation processes performed by professional laboratories.OLEI strives to provide reliable, high quality, rugged and robust sensor products to customers.
+- You can test it using 
+- 
+.. code-block:: bash
+   :linenos:
+
+docker run -it --network=host cognimbus/olei-lidar-driver:foxy ros2 launch ros2_ouster ole3dv2_launch.py laser_frame:=laser lidar_ip:=192.168.1.100 computer_ip:=192.168.1.10 lidar_port:=2368 imu_port:=9866

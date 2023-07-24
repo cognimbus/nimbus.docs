@@ -1,4 +1,4 @@
- .. image:: ../img/cog-hero2.webp
+ .. image:: _static/cog-hero2.webp
       :width: 80%
       :alt: Nimbus Showcase
       :target: https://app.cognimbus.com/
