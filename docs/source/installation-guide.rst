@@ -8,17 +8,17 @@ Choose your OS
 .. _`Nimbus`: index.md
 .. _`Nimbus Agent`:
 
-   .. image:: ../img/Tux.png
+   .. image:: _static/img/Tux.png
       :width: 100px
       :target: #install-nimbus-agent-on-linux
       :class: hover-popout
 
-   .. image:: ../img/Docker.png
+   .. image:: _static/img/Docker.png
       :width: 100px
       :target: #install-nimbus-agent-dockerized
       :class: hover-popout
 
-   .. image:: ../img/Win.png
+   .. image:: _static/img/Win.png
       :width: 100px
       :target: #install-nimbus-agent-in-wsl2
       :class: hover-popout
