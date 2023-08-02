@@ -3,12 +3,12 @@ Sensors
 
 Check out these awesome lidars
 
-   .. image:: _static/img/sensors/olei2D.jpg
+   .. image:: _static/img/sensors/olei2D.png 
       :width: 200px
       :target: #olei-2d-lidar
       :class: hover-popout
 
-   .. image:: _static/img/sensors/olei3D.jpg
+   .. image:: _static/img/sensors/olei3D.png
       :width: 200px
       :target: #olei-3d-lidar
       :class: hover-popout
