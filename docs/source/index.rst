@@ -80,3 +80,4 @@ Choose your compute platform
    create-new-component
    create-robot-configuration
    agent-settings
+   robot-page
