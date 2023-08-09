@@ -75,6 +75,23 @@ Install nimbus agent dockerized
 
 - Nimbus can be installed as a doker  
 - Just add --docker at the end of the install script and it will install the docker container with the agent in it
+- For starting the dockerized agent 
+.. code-block:: bash
+   :linenos:
+
+   start_nimbus_docker
+
+- For stopping the dockerized agent 
+.. code-block:: bash
+   :linenos:
+
+   stop_nimbus_docker
+
+- For updating the dockerized agent (updating it from the nimbus website is not supported at this stage)
+.. code-block:: bash
+   :linenos:
+
+   update_nimbus_docker
 
 
 .. _install-nimbus-agent-in-wsl2:
@@ -95,21 +112,7 @@ Install nimbus agent in WSL2
 
    docker 
 
-- Now create the agent just using the Linux regular installation procedure 
-- Since systemd is not yet seamlessly supported (July 2023) you will need to stop the nimbus service after installation completes
-
-.. code-block:: bash
-   :linenos:
-
-   sudo service nimbus stop 
-
-- Then run the agent manually using
-
-.. code-block:: bash
-   :linenos:
-
-   sudo /bin/nimbusd 
-
+- Now create the agent just using the Linux regular installation procedure (with the --docker command)
 - Please note that usb passthrough is only supported through Usbipd-win (WIP)
 
 
