@@ -64,19 +64,20 @@ To create a new robot instance and install the Nimbus agent on your target platf
 
 
 .. |robots| image:: _static/img/robots.png
+   :width: 23%
    :alt: robots 
 
 .. |create_new_robot| image:: _static/img/Create_new_robot.png
-   :width: 15%
+   :width: 23%
    :alt: create_new_robot 
 
 .. |apply| image:: _static/img/Apply.png
-   :width: 15%
+   :width: 23%
    :alt: Apply 
 
 
 .. |online_robots| image:: _static/img/online_robots.png
-   :width: 15%
+   :width: 23%
    :alt: Online robots 
 
 .. |Deployed_robot_icon| image:: _static/img/Deployed_robot_icon.PNG
