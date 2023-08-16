@@ -45,30 +45,44 @@ Install nimbus agent on Linux
 
 To create a new robot instance and install the Nimbus agent on your target platform (robot).
 
-1. In the **Side bar** (navigation) pane, click **Robots**, then click **+ Create new robot**.
+1. In the Side Bar, click |robots| then click |create_new_robot|.
 
-2. Choose your license.
+2. Choose your license, and click |apply|.
+
+   If using the Nimbus free plan, from the **Free** license panel, click **APPLY**.
+
+   **Note** If you create more than 2 robots, a `purchased license <https://www.cognimbus.com/pricing>`_ is required.
 
 3. Enter a unique name for your new robot.
 
-4. Click **+Create**.
+4. To install the Nimbus agent, copy the displayed Linux command and execute it from a terminal connected to your robot.
+   
+   In the Navigation panel, under |online_robots|, the robot's name is listed with a green indicator. This confirms connection to Nimbus. In the |robots| tab, the |Deployed_robot_icon| icon appearing next to the robot's name also confirms that the robot is connected.
+   
 
-   A new robot instance is created and assigned to the designated fleet.
-
-   A Linux command, containing a unique API key, is displayed. This API key is also emailed to you.
-
-5. Your new robot's name appears in the **Robots** tab.
-
-6. To install the Nimbus agent, copy the displayed Linux command and execute it from a terminal connected to your robot.
-
-   In the **Robots** tab, the robot's name is listed with a green indicator.
-
-**Note**: To display the agent installation line, enter the command ``nimbus system link``.
-
-.. _`purchased license`: https://www.cognimbus.com/pricing
+**Note:** To display the agent installation line, enter the command ``nimbus system link`` in the robot terminal.
 
 
-.. _install-nimbus-agent-dockerized:
+.. |robots| image:: _static/img/robots.png
+   :width: 2%
+   :alt: robots 
+
+.. |create_new_robot| image:: _static/img/Create_new_robot.png
+   :width: 2%
+   :alt: create_new_robot 
+
+.. |apply| image:: _static/img/Apply.png
+   :width: 2%
+   :alt: Apply 
+
+
+.. |online_robots| image:: _static/img/online_robots.png
+   :width: 2%
+   :alt: Online robots 
+
+.. |Deployed_robot_icon| image:: _static/img/Deployed_robot_icon.PNG
+   :width: 2%
+   :alt: Deployed robot icon
 
 Install nimbus agent dockerized
 ----------------------------
