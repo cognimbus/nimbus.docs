@@ -119,7 +119,13 @@ Install nimbus agent in WSL2
    :linenos:
 
    wsl –install
+- Edit DNS configuration for WSL
+.. code-block:: bash
+   :linenos:
 
+   echo -e "[network]\ngenerateResolvConf = false" | sudo tee -a /etc/wsl.conf
+   # add google DNS or replace 8.8.8.8 with a DNS provider of your choice
+   sudo sed -i 's/nameserver [0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+/nameserver 8.8.8.8/' /etc/resolv.conf
 - Docker client should be installed before running the agent install script. Make sure you are able to run inside WSL2
 .. code-block:: bash
    :linenos:
