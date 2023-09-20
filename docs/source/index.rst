@@ -3,7 +3,7 @@
       :alt: Nimbus Showcase
       :target: https://app.cognimbus.com/
 
-**Nimbus** is a cloud based platfrom for robot development.
+**The Cogniteam Cloud Platfrom** is a unified platfrom for the development, deployment, monitoring and maintenance of robots from the cloud.
 
 Log in to the system `here <https://app.cognimbus.com/>`_
 
