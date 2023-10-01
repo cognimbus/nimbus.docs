@@ -1,4 +1,4 @@
-Welcome to Nimbus  
+Welcome to Cogniteam Cloud Platform documentation  
 =======================================
 
 The Cloud Robotics Ecosystem for monitoring, developing, deploying,
