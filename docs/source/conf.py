@@ -24,7 +24,7 @@ html_css_files = [
     'css/rtd_dark.css',
 ]
 
-html_logo = "_static/img/nimbus-logo.png"
+html_logo = "_static/img/cognteam-logo.webp"
 
 extensions = [
     'myst_parser',
