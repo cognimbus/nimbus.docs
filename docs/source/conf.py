@@ -24,7 +24,7 @@ html_css_files = [
     'css/rtd_dark.css',
 ]
 
-html_logo = "_static/img/cognteam-logo.webp"
+html_logo = "_static/img/cogniteam-logo.webp"
 
 extensions = [
     'myst_parser',
