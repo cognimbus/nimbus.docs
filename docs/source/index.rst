@@ -3,7 +3,7 @@
       :alt: Nimbus Showcase
       :target: https://app.cognimbus.com/
 
-**The Cogniteam Cloud Platfrom** is a unified platfrom for the development, deployment, monitoring and maintenance of robots from the cloud.
+**The Cogniteam Cloud Platform** is a unified platform for the development, deployment, monitoring and maintenance of robots from the cloud.
 
 Log in to the system `here <https://app.cognimbus.com/>`_
 
