@@ -1,6 +1,6 @@
 What is the Cogniteam Cloud Platform?
 
-.. image:: _static/img/image3.png
+.. image:: _static/img/loby.png
    :width: 6.5in
    :height: 3.625in
 
