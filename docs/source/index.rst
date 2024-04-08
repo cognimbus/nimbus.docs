@@ -51,4 +51,6 @@ Log in to the system `here <https://app.cognimbus.com/>`_
    robots-tab
    robots-overview
    monitoring
-   
+   settings
+   configurations
+   simulation
