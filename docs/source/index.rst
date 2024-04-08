@@ -72,6 +72,7 @@ Choose your compute platform
 
 .. toctree::
    :hidden:
+   
    about
    installation-guide
    robots
