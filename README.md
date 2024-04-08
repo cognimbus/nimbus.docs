@@ -1,7 +1,7 @@
-Welcome to Cogniteam Cloud Platform documentation  
+Cogniteam Cloud Platform documentation  
 =======================================
 
-The Unified Cloud Robotic Platform for monitoring, developing, deploying,
+The Cogniteam Cloud Robotic Platform is a unified platform for monitoring, developing, deploying,
 and managing a single or a fleet of robots
 
 Contributing to this project
