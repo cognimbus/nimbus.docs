@@ -49,10 +49,6 @@ Log in to the system `here <https://app.cognimbus.com/>`_
    
    installation-guide
    robots-tab
-   robots
-   sensors
-   compute-platforms   
-   create-new-component
-   create-robot-configuration
-   agent-settings
-   robot-page
+   robots-overview
+   monitoring
+   
