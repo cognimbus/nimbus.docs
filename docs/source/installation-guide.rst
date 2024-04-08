@@ -118,7 +118,8 @@ which is a feature of Windows that allows you to run a Linux environment on your
 2. Configure DNS for WSL with the following commands:
 
 .. code-block:: bash
-
+   :linenos:
+   
    echo -e "[network]\ngenerateResolvConf = false" | sudo tee -a /etc/wsl.conf
    # add google DNS or replace 8.8.8.8 with a DNS provider of your choice
    sudo sed -i 's/nameserver [0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+/nameserver 8.8.8.8/' /etc/resolv.conf

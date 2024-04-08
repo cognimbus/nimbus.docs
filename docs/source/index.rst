@@ -1,67 +1,40 @@
- .. image:: _static/img/cog-hero2.webp
-      :width: 80%
-      :alt: Nimbus Showcase
-      :target: https://app.cognimbus.com/
 
-**The Cogniteam Cloud Platform** is a unified platform for the development, deployment, monitoring and maintenance of robots from the cloud.
+.. image:: _static/img/media/image3.png
+   :width: 6.5in
+   :height: 3.625in  
+
+Cogniteam Cloud Platform is a cloud robotics platform that provides a
+unified way to **develop**, **deploy** and **manage robots** and
+**fleets**. The platform allows you to teleoperate robots, monitor &
+record sensor information from anywhere in the world with one
+customizable dashboard. You can monitor an individual robot or a
+fleet of robots, gain remote access, and display various types of
+information: data streams, performance analytics, fault diagnostics,
+and more. The simulation tool provided by Cogniteam is powerful and
+flexible, allowing you to create and run simulations of your robots
+and their behaviors, allowing you to test and evaluate new designs,
+train operators, and predict the performance of your robots under
+different conditions.
+
+Cogniteam Platform also offers a low-code development platform that
+makes your ROS journey intuitive using drag-and-drop tools and a rich
+set of ready-made AI algorithms such as object recognition,
+navigation, and path planning that are ROS1/2 compatible. You can
+easily design, develop, and test your robots, allowing you to create
+custom behaviors that are tailored to your unique needs. The platform
+supports ROS 1/2 by providing a bridge that allows ROS 1/2 nodes to
+communicate. This enables developers to leverage the existing ROS
+ecosystem, libraries, and tools while benefiting from the platform
+capabilities.
+
+See full overview video here:
+https://vimeo.com/878210524
+
+.. raw:: html 
+
+    <iframe src="https://player.vimeo.com/video/878210524?h=54a276492f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Log in to the system `here <https://app.cognimbus.com/>`_
-
-Installation Guide
-===============================
-
-Choose your OS 
-
-   .. image:: _static/img/Tux.png
-      :width: 100px
-      :target: installation-guide.html#install-nimbus-agent-on-linux
-      :class: hover-popout
-
-   .. image:: _static/img/Docker.png
-      :width: 100px
-      :target: installation-guide.html#install-nimbus-agent-dockerized
-      :class: hover-popout
-
-
-   .. image:: _static/img/Win.png
-      :width: 100px
-      :target: installation-guide.html#install-nimbus-agent-in-wsl2
-      :class: hover-popout
-
-
-Choose your compute platform
-
-    .. image:: _static/img/compute/raspberry-pi-zero.png
-        :width: 100px
-        :class: hover-popout
-        :target: compute-platforms.html#raspberry-pi-zero-w2
-
-    .. image:: _static/img/compute/raspberry-pi-3.png
-        :width: 100px
-        :class: hover-popout
-        :target: compute-platforms.html#raspberry-pi3
-
-    .. image:: _static/img/compute/raspberry-pi-4.png
-        :width: 100px
-        :class: hover-popout
-        :target: compute-platforms.html#raspberry-pi4
-
-    .. image:: _static/img/compute/jetson-nano.png
-        :width: 100px
-        :class: hover-popout
-        :target: compute-platforms.html#nvidia
-
-    .. image:: _static/img/compute/jetson-xavier-nx.png
-        :width: 100px
-        :class: hover-popout
-        :target: compute-platforms.html#nvidia
-
-    .. image:: _static/img/compute/jetson-orin.png
-        :width: 100px
-        :class: hover-popout
-        :target: compute-platforms.html##nvidia-jetson-orin
-
-
 
 
 .. note::
@@ -73,8 +46,9 @@ Choose your compute platform
 .. toctree::
    :hidden:
    
-   about
+   
    installation-guide
+   robots-tab
    robots
    sensors
    compute-platforms   
