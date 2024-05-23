@@ -9,7 +9,7 @@ Welcome to Cogniteam's Cloud Platform! This installation guide will walk you thr
 
 
 
-Signe Up
+Sign Up
 --------
 
 To unlock the full potential of Cogniteam's platform, you need to sign up or sign in. Visit our platform at 
@@ -67,12 +67,11 @@ Installing the Agent
 The **Agent**, a pivotal component of Cogniteam's Cloud Platform,
 empowers you to manage and interact with your robot from any location
 globally. It facilitates the connection of robots to Cogniteam's
-cloud services, handles system software and dependencies
-installation, manages robot configurations, collects platform data,
+cloud services handle system software, dependencies installation, manages robot configurations, collects platform data,
 monitors robot status, and enables remote control through the
 Cogniteam Cloud Platform.
 
-The Agent can either be installed directly on our supported platforms
+The Agent can be installed directly on our supported platforms
 or inside a docker.
 
 Agent Installation
