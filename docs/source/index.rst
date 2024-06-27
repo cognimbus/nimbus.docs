@@ -52,5 +52,4 @@ Log in to the system `here <https://app.cognimbus.com/>`_
    robots-overview
    monitoring
    settings
-   configurations
-   simulation
+   api-gateway
