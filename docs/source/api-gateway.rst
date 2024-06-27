@@ -1,3 +1,11 @@
+.. _`Api gateway`:
+
+API Gateway
+===========================
+
+General
+--------
+
 Create a token in the admin profile when logged in to your organization on Cogniteam Cloud Platform 
 
 Assuming the base URL for the API is https://api.cognimbus.com/api/v1
