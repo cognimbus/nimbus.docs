@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Nimbus'
+project = 'Cogniteam Cloud Platform'
 copyright = '2021, Cogniteam'
 author = 'Cogniteam'
 
@@ -62,7 +62,7 @@ def get_edit_url():
 
 html_context = {
     "display_github": True, # Integrate GitHub
-    "github_user": "Nimbus", # Username
+    "github_user": "cognimbus", # Username
     "github_repo": "nimbus.docs", # Repo name
     "github_version": "main", # Version
     "edit_on_github": True,
