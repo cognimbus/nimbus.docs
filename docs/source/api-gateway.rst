@@ -6,9 +6,9 @@ API Gateway
 General
 -------
 
-Create a token in the admin profile when logged in to your organization on Cogniteam Cloud Platform.
+Create a token in the admin profile when logged in to your organization on the Cogniteam Cloud Platform.
 
-Assuming the base URL for the API is https://api.cognimbus.com/api/v1.
+The base URL for the API is https://api.cognimbus.com/ApiGateway
 
 Login to API
 ------------
@@ -116,4 +116,4 @@ Notes
 - {robotId} and {streamName} are placeholders for the robot ID and stream name, respectively.
 - For methods that modify data (e.g., POST), the body of the request should be detailed in the API documentation, specifying required fields and formats.
 - Status Codes: Utilize HTTP status codes correctly to indicate the outcome of API calls, e.g., 200 OK, 404 Not Found, 400 Bad Request.
-- Versioning: Version the API (e.g., /v1/robot) to manage changes and maintain compatibility.
+- For testing the API, it is possible to use the following example: curl -v --location --request GET <route> -H "Authorization: Bearer <token>" --header 'u;'
