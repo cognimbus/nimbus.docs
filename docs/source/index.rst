@@ -1,5 +1,4 @@
 .. _`index`:
-   :hidden:
    Cogniteam Cloud Platform
 
 .. note::
