@@ -13,12 +13,9 @@ Cogniteam Cloud Platform
 
 Cogniteam Cloud Platform is a cloud-based robotics solution for developing, deploying, and managing robots and fleets. It offers a customizable dashboard for teleoperation, sensor monitoring, and performance analytics. The platform includes a powerful simulation tool for testing designs and training operators, and features a low-code development environment with drag-and-drop tools and pre-built AI algorithms for ROS 1/2. It supports ROS 1/2 integration, allowing seamless use of existing ROS libraries and tools.
 
-See the full overview video here:
-https://vimeo.com/878210524
-
 .. raw:: HTML 
 
-   <iframe src="https://player.vimeo.com/video/878210524?h=54a276492f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/878210524?h=54a276492f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Log in to the system `here <https://app.cognimbus.com/>`_
 
