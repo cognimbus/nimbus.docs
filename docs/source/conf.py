@@ -12,7 +12,7 @@ version = '0.1.0'
 master_doc = 'index'
 
 # -- General configuration
-htmltitle = "Cogniteam Cloud Platform"
+html_title = "Cogniteam Cloud Platform"
 
 html_theme_options = {
     'logo_only': True,
