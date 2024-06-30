@@ -5,7 +5,7 @@ Cogniteam Cloud Platform
 
 .. raw:: HTML 
 
-   <iframe src="https://player.vimeo.com/video/878210524?h=54a276492f" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+   <iframe src="https://player.vimeo.com/video/878210524?h=54a276492f" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 .. note::
 
