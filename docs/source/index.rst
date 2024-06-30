@@ -1,3 +1,7 @@
+.. note::
+
+   This documentation is under active development.
+
 .. image:: _static/img/media/image3.png
    :width: 6.5in
    :height: 3.625in  
@@ -35,10 +39,6 @@ https://vimeo.com/878210524
 
 Log in to the system `here <https://app.cognimbus.com/>`_
 
-
-.. note::
-
-   This documentation is under active development.
 
 .. must add the page here to see it on the side menu
 
