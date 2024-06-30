@@ -1,6 +1,7 @@
 .. _`index`:
    
-   Cogniteam Cloud Platform
+Cogniteam Cloud Platform
+==================================
 
 .. note::
 
