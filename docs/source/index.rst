@@ -1,8 +1,5 @@
 .. _`index`:
 
-Cogniteam Cloud Platform
-========================
-
 .. note::
 
    This documentation is under active development.
