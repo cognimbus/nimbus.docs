@@ -1,3 +1,8 @@
+.. _`index`:
+
+Cogniteam Cloud Platform
+========================
+
 .. note::
 
    This documentation is under active development.
@@ -44,7 +49,7 @@ Log in to the system `here <https://app.cognimbus.com/>`_
 
 .. toctree::
    :hidden:
-   
+   index
    installation-guide
    robots-tab
    robots-overview
