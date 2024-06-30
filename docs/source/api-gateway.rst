@@ -4,106 +4,116 @@ API Gateway
 ===========================
 
 General
---------
+-------
 
-Create a token in the admin profile when logged in to your organization on Cogniteam Cloud Platform 
+Create a token in the admin profile when logged in to your organization on Cogniteam Cloud Platform.
 
-Assuming the base URL for the API is https://api.cognimbus.com/api/v1
+Assuming the base URL for the API is https://api.cognimbus.com/api/v1.
 
 Login to API
+------------
 
-Login with API token
+Login with API token::
 
-POST /login
+    POST /login
 
-Body: { "token": "..." }
+    Body: 
+    {
+        "token": "..."
+    }
 
-Description: Sends token to login
+    Description: Sends token to login.
 
-returns "bearer"
+    Returns: "bearer"
 
 Robots Management
+-----------------
 
-List Robot IDs
+List Robot IDs::
 
-GET /robots
+    GET /robots
 
-Header: { "bearer": "..." }
+    Header: 
+    {
+        "bearer": "..."
+    }
 
-Description: Retrieves a list of all robot IDs.
+    Description: Retrieves a list of all robot IDs.
 
-Response example
+    Response example:
+    {
+        "robots": [
+            { "id": "0cb17861-295f-4882-bec4-1fc5fecc2a2c", "name": "nqwqw" },
+            { "id": "136315a1-11f6-4ade-9b0a-6d7a26fd021b", "name": "ggggggg" },
+            { "id": "2807bf84-c210-4a09-b344-d6c41df1ecf7", "name": "jjjjjjj" },
+            { "id": "34f2b77f-4203-4aa9-8894-8d20910efd45", "name": "JustForStart" },
+            { "id": "563a6f99-2124-4d5f-a88d-ab50e3eede7e", "name": "pengo_ros1" },
+            { "id": "a21f4375-36fa-4d7c-85d2-9654671b84df", "name": "TokenRobot200" }
+        ]
+    }
 
-{ "robots": [ { "id": "0cb17861-295f-4882-bec4-1fc5fecc2a2c", "name": "nqwqw" }, { "id": "136315a1-11f6-4ade-9b0a-6d7a26fd021b", "name": "ggggggg" }, { "id": "2807bf84-c210-4a09-b344-d6c41df1ecf7", "name": "jjjjjjj" }, { "id": "34f2b77f-4203-4aa9-8894-8d20910efd45", "name": "JustForStart" }, { "id": "563a6f99-2124-4d5f-a88d-ab50e3eede7e", "name": "pengo_ros1" }, { "id": "a21f4375-36fa-4d7c-85d2-9654671b84df", "name": "TokenRobot200" },
+Get a Specific Robot's Details::
 
-Get a Specific Robot's Details
+    GET /robots/{robotId}
 
-GET /robots/{robotId}
+    Description: Fetches details for a specific robot by ID.
 
-Description: Fetches details for a specific robot by ID.
-
-Robot 
-
-id 
-
-name
-
-Metrics 
-
-Online/Offline
-
-Last seen
-
-Response example
-
-{ "basicData": { "id": "0cb17861-295f-4882-bec4-1fc5fecc2a2c", "name": "nqwqw" }, "metrics": [ { "Name": "Traffic", "value": 1048576000000, "state": 1 }, { "Name": "AgentMandatoryUpdate", "value": 0, "state": 2 } ], "isOnline": false, "lastTimeSeen": "0001-01-01T00:00:00Z" }
+    Response example:
+    {
+        "basicData": {
+            "id": "0cb17861-295f-4882-bec4-1fc5fecc2a2c",
+            "name": "nqwqw"
+        },
+        "metrics": [
+            { "Name": "Traffic", "value": 1048576000000, "state": 1 },
+            { "Name": "AgentMandatoryUpdate", "value": 0, "state": 2 }
+        ],
+        "isOnline": false,
+        "lastTimeSeen": "0001-01-01T00:00:00Z"
+    }
 
 Robot Metrics
+-------------
 
-Get All Metrics (prod)
+Get All Metrics (prod)::
 
-GET /robots/metrics
+    GET /robots/metrics
 
-Description: Fetches all available metrics 
+    Description: Fetches all available metrics.
 
-ex. cpu,ram,etc..
+    Example metrics: cpu, ram, etc.
 
-Get Robot Metrics (prod)
+Get Robot Metrics (prod)::
 
-GET /robot/{robotId}/metric/{metricId}
+    GET /robot/{robotId}/metric/{metricId}
 
-Description: Fetches specific metric for robot
+    Description: Fetches specific metric for robot.
 
-ex. cpu,ram,etc…
+    Example metrics: cpu, ram, etc.
 
 Streaming/Unary Data Management
+-------------------------------
 
-For streaming or sending commands directly to robots
+For streaming or sending commands directly to robots when robots are online. Rate limited to 1 second.
 
-when robots are online
+Get All Streams (staging)::
 
-Rate limited to 1sec
+    GET /robot/{robotId}/streams
 
-Get All Streams (staging)
+    Description: Retrieves a list of all available streams for a robot.
 
-GET /robot/{robotId}/streams
+    Response fields: streamName, type
 
-Description: Retrieves a list of all available streams for a robot.
+Get Data from a Specific Stream (staging)::
 
-streamName, type
+    GET /robot/{robotId}/streams/{streamName}
 
-Get Data from a Specific Stream (staging)
-
-GET /robot/{robotId}/streams/{streamName}
-
-Description: Fetches data from a specific stream for a robot.
+    Description: Fetches data from a specific stream for a robot.
 
 Notes
+-----
 
-{robotId} and {streamName} are placeholders for the robot ID and stream Name, respectively.
-
-For methods that modify data (e.g., POST), the body of the request should be detailed in the API documentation, specifying required fields and formats.
-
-Status Codes: Utilize HTTP status codes correctly to indicate the outcome of API calls, e.g., 200 OK, 404 Not Found, 400 Bad Request.
-
-Versioning: version the API (e.g., /v1/robot) to manage changes and maintain compatibility.
+- {robotId} and {streamName} are placeholders for the robot ID and stream name, respectively.
+- For methods that modify data (e.g., POST), the body of the request should be detailed in the API documentation, specifying required fields and formats.
+- Status Codes: Utilize HTTP status codes correctly to indicate the outcome of API calls, e.g., 200 OK, 404 Not Found, 400 Bad Request.
+- Versioning: Version the API (e.g., /v1/robot) to manage changes and maintain compatibility.
