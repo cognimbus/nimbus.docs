@@ -12,7 +12,7 @@
 
  @media (prefers-color-scheme: dark) {
 	a:visited {
-		color: #bf84d8;
+		color: #2980b9; /*#bf84d8;*/
 	}
 
 	pre {
