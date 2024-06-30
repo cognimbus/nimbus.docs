@@ -24,6 +24,16 @@ and their behaviors, allowing you to test and evaluate new designs,
 train operators, and predict the performance of your robots under
 different conditions.
 
+See the full overview video here:
+https://vimeo.com/878210524
+
+.. raw:: html 
+
+    <iframe src="https://player.vimeo.com/video/878210524?h=54a276492f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+Log in to the system `here <https://app.cognimbus.com/>`_
+
+
 Cogniteam Platform also offers a low-code development platform that
 makes your ROS journey intuitive using drag-and-drop tools and a rich
 set of ready-made AI algorithms such as object recognition,
@@ -35,14 +45,7 @@ communicate. This enables developers to leverage the existing ROS
 ecosystem, libraries, and tools while benefiting from the platform's
 capabilities.
 
-See the full overview video here:
-https://vimeo.com/878210524
 
-.. raw:: html 
-
-    <iframe src="https://player.vimeo.com/video/878210524?h=54a276492f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-Log in to the system `here <https://app.cognimbus.com/>`_
 
 
 .. must add the page here to see it on the side menu
