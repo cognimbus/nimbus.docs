@@ -49,7 +49,7 @@ Log in to the system `here <https://app.cognimbus.com/>`_
 
 .. toctree::
    :hidden:
-   index
+   
    installation-guide
    robots-tab
    robots-overview
