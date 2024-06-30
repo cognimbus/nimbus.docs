@@ -15,10 +15,9 @@ Cogniteam Cloud Platform is a cloud-based robotics solution for developing, depl
 
 See the full overview video here:
 https://vimeo.com/878210524
+.. raw:: HTML 
 
-.. raw:: html 
-
-    <iframe src="https://player.vimeo.com/video/878210524?h=54a276492f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+   <iframe src="https://player.vimeo.com/video/878210524?h=54a276492f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Log in to the system `here <https://app.cognimbus.com/>`_
 
