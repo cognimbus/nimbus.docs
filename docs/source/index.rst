@@ -28,3 +28,4 @@ Cogniteam Cloud Platform
    robots-overview
    monitoring
    settings
+   api-gateway
