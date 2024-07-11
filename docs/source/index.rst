@@ -29,3 +29,4 @@ Cogniteam Cloud Platform
    monitoring
    settings
    api-gateway
+   release-notes
