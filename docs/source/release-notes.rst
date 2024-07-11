@@ -1,5 +1,4 @@
 .. _`Release notes`:
-.. _release_notes:
 
 Release Notes
 =============
