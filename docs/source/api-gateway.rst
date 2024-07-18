@@ -19,7 +19,7 @@ Login with API token::
 
     Body: 
     {
-        "token": "..."
+        "usertoken": "..."
     }
 
     Description: Sends token to login.
