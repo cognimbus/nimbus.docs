@@ -9,7 +9,6 @@ Release Notes
 
 Preset viewing options
 ----------------------
-.. collapsible::
 
    We allow for each preset to select whether it is viewable.
 
@@ -33,7 +32,6 @@ Preset viewing options
 
 Video manipulation
 ------------------
-.. collapsible::
 
    We now allow the user to set the video layout of the camera feed.
 
@@ -44,7 +42,6 @@ Video manipulation
 
 Monitoring page for fleets of robots
 ------------------------------------
-.. collapsible::
 
    In the fleet page, we now added a monitoring tab, enabling to monitor multiple robots in the same fleet under one tab.
 
@@ -59,7 +56,6 @@ Monitoring page for fleets of robots
 
 Map viewer improvements (Center of map)
 ---------------------------------------
-.. collapsible::
 
    In the monitoring page of the robot, Map Viewer (google map/GPS view), the initial center of the map is now determined in the following way:
    - Saved last received location from a stream (saved in browser), if not
@@ -69,13 +65,11 @@ Map viewer improvements (Center of map)
 
 Map viewer improvements (viewing settings)
 ------------------------------------------
-.. collapsible::
 
    We now moved map/satellite view toggle options to the viewer settings.
 
 Message template mechanism improvement
 --------------------------------------
-.. collapsible::
 
    Currently, we have two ways to get message templates from stream sources:
    - Via request of the message structure
@@ -87,7 +81,6 @@ Message template mechanism improvement
 
 Bug Fixes
 ---------
-.. collapsible::
 
    Online/Offline
    ~~~~~~~~~~~~~~
