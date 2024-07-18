@@ -1,7 +1,7 @@
 Robot's Overview and Control
 ============================
 
-You have clicked on a specific robot and now you are looking at the
+You have clicked on a specific robot and are looking at the
 robot's overview tab. Let's explore this page from top to bottom.
 
 General Controls
@@ -15,28 +15,28 @@ Starting at the top left corner you can see your robot's name. You
 can rename it by clicking the pencil icon or add it to your favorites
 list by clicking the star icon.
 
-Next , there are buttons for quick and useful remote actions you can perform:
+Next, there are buttons for quick and useful remote actions you can perform:
  
 - Reboot - will cause the robot's operating system to reboot
 - SSH - will open a tab containing an SSH terminal window from
-   which you can directly perform system operations on your robot.
+   which you directly perform system operations on your robot.
 
    - Agent CLI commands (we'll explore later)
    - ROS commands
    - Any other system operation your OS allows.
 
-- Local - The agent is able to open a local web server which you can
+- Local - The agent can open a local web server which you can
    log into in case you are stationed under the same local network. This
    local server can show you most of the features of our system that are
-   relevant for this specific robot. This is useful for cases in which
+   relevant to this specific robot. This is useful for cases in which
    remote cloud access is unavailable - you can still perform many
    actions from your browser on your local machine. We will explore this
    interesting feature later on.
 
-In the top right corner you can see who else in your organization is
+In the top right corner, you can see who else in your organization is
 using the robot beside you (the circular user images). Next, you can
 manage these users by clicking the Manage button. This will open a
-popup window which allows you to view the users and their role on the
+popup window that allows you to view the users and their roles on the
 robot. You can invite other members to join as well.
 
 .. image:: _static/img/media/image16.png
@@ -49,12 +49,12 @@ The available roles are:
    assign or change robot configurations, or control robots assigned
    to fleets.
 
-   **Developer** - Can assign and change robot configurations, view data
+   **Developer** - Can assign and change robot configurations, and view data
    for shared robots and fleets. They cannot delete shared robots,
    invite other robots, or assign robots to fleets.
 
    **Administrator** - Can assign or change robot configurations, 
-   view data and manage permissions. They can invite additional users to 
+   view data, and manage permissions. They can invite additional users to 
    shared robots or fleets created by other users.
 
 Going back to the overview page, we can see the different tabs from which we can control and monitor the robot:
@@ -63,7 +63,7 @@ Going back to the overview page, we can see the different tabs from which we can
    :width: 5.45833in
    :height: 0.47917in
 
-We are currently in the overview tab. Let's explore its features in the next.
+We are currently in the overview tab.
 
 
 Overview Tab
@@ -103,7 +103,7 @@ The following tiles depict the general overview of this robot.
 ||                   || robot's structural and                                   |
 ||                   || behavioral configuration, from                           |
 ||                   || which you can view history,                              |
-||                   || edit,or deploy new                                       |
+||                   || edit, or deploy new                                       |
 ||                   || configurations. See the image                            |
 ||                   || below the table.                                         |
 +--------------------+-----------------------------------------------------------+
@@ -116,7 +116,7 @@ The following tiles depict the general overview of this robot.
 ||                   || containers the robot is running /                        |
 ||                   || able to run. We'll explore this                          |
 ||                   || feature later on, but for now,                           |
-||                   || consider that you are able to                            |
+||                   || consider that you can                            |
 ||                   || run different dockerized                                 |
 ||                   || drivers and algorithms on your                           |
 ||                   || robot. Clicking in this tile                             |
@@ -130,7 +130,7 @@ The following tiles depict the general overview of this robot.
 ||                   || which are connected via                                  |
 ||                   || different ports. Clicking on                             |
 ||                   || this tile allows you to view                             |
-||                   || these ports. See image below.                            |
+||                   || these ports. See the image below.                        |
 +--------------------+-----------------------------------------------------------+
 || Robot Active Time || A chart depicting for each day                           |
 ||                   || how many hours the robot was                             |
@@ -161,8 +161,8 @@ But wait! What is a Configuration?!
 
 We'll get to that soon enough when exploring the configuration tab.
 For now, it is enough to know that a configuration has 2 coupled
-definitions. 1) the 3D structure of the robot, and 2) of the robot,
-and 2) the behavioral graph of the robot - interconnected drivers 
+definitions. 1) the 3D structure of the robot, 2) the robot,
+and 3) the behavioral graph of the robot - interconnected drivers 
 and algorithms depicting the sense-think-act cycle of the robot.
 
 .. image:: _static/img/media/image19.png
@@ -171,7 +171,7 @@ and algorithms depicting the sense-think-act cycle of the robot.
 
 These drivers and algorithms are dockerized processes which we call
 “components”. The above image depicts the components popup window,
-which allows you to start / stop / restart these processes. It is
+which allows you to start/stop/restart these processes. It is
 particularly useful when just a single component requires a restart,
 e.g., the camera stopped working and we wish to reset it before
 debugging why.
