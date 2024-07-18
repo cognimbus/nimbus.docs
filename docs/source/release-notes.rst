@@ -32,21 +32,21 @@ Video manipulation
    - Flip vertical
    - Rotate 90/180/270
 
-Monitoring page for fleets of robots
+Fleet monitoring page
 ~~~~~~~
 
-   In the fleet page, we now added a monitoring tab, enabling to monitor multiple robots in the same fleet under one tab.
+   In the fleet page, we added a monitoring tab, enabling the monitoring of multiple robots in the same fleet under one tab.
 
-   How to use it?
+   How to use
    ^^^^^^^^^^^^^^^^^^^^
-   1. Enter fleet page.
+   1. Enter the fleet page.
    2. Go to the monitoring tab.
    3. See an empty page with an add viewer button (same as on robot monitoring).
    4. Select a viewer.
-   5. In the settings, you can now select the robot, above the stream selection.
+   5. In the settings, you can select the robot, above the stream selection.
    6. The viewer is added to the fleet monitoring page.
 
-Map viewer improvements (Center of map)
+Map viewer improvements
 ~~~~~~~
 
    In the monitoring page of the robot, Map Viewer (google map/GPS view), the initial center of the map is now determined in the following way:
@@ -54,20 +54,16 @@ Map viewer improvements (Center of map)
    - The first GPS location received from the stream, if not
    - The location of the robot (IP-based, if available), if not
    - The middle of the ocean
+   - We moved map/satellite view toggle options to the viewer settings.
 
-Map viewer improvements (viewing settings)
-~~~~~~~
-
-   We now moved map/satellite view toggle options to the viewer settings.
-
-Message template mechanism improvement
+Message structure
 ~~~~~~~
 
    Currently, we have two ways to get message templates from stream sources:
    - Via request of the message structure
    - Via reading the first message
 
-   The problem: when the source publishes messages rarely or the stream source is an input, the second way doesn’t work. We now get the message template initiated both ways at the same time.
+   The problem: when the source publishes messages rarely or the stream source is input, the second way doesn’t work. We now get the message template initiated both ways.
 
    Note: If the message field is an array, we will display a spinner next to the array field until a message arrives and the structure is resolved (with a real array or by timeout).
 
@@ -77,7 +73,7 @@ Bug Fixes
    Online/Offline
    ^^^^^^^^^^^^^^^^^^^^
 
-   When scaling the system, some of the robots experienced disconnection from the cloud and were marked as offline although they reconnected to the new instances. This issue was fixed as part of addressing multiple backend instances.
+   When scaling the system, some of the robots experienced disconnection from the cloud and were marked offline, although they reconnected to the new instances. This issue was fixed by addressing multiple backend instances.
 
 Older release notes 
 ----------------------
