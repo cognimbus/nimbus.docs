@@ -3,10 +3,7 @@
 Release Notes
 =============
 
-.. contents:: Table of Contents
-   :local:
-   :depth: 2
-
+Release 18/07/2024
 
 .. collapse:: Preset viewing options
 ----------------------
