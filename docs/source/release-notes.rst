@@ -7,6 +7,9 @@ Release Notes
    :local:
    :depth: 2
 
+.. collapse:: Relese18072024
+:open:
+
 Preset viewing options
 ----------------------
 
@@ -86,3 +89,7 @@ Bug Fixes
    ~~~~~~~~~~~~~~
 
    When scaling the system, some of the robots experienced disconnection from the cloud and were marked as offline although they reconnected to the new instances. This issue was fixed as part of addressing multiple backend instances.
+
+.. collapse:: Relese18062024
+:open:
+
