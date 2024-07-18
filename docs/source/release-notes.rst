@@ -50,6 +50,7 @@ Fleet monitoring page
 
    How to use
    ^^^^^^^^^^^^^^^^^^^^
+
    1. Enter the fleet page.
    2. Go to the monitoring tab.
    3. See an empty page with an add viewer button (same as on robot monitoring).
@@ -65,6 +66,8 @@ Map viewer improvements
       :class: hover-popout
 
    In the monitoring page of the robot, Map Viewer (google map/GPS view), the initial center of the map is now determined in the following way:
+   ^^^^^^^^^^^^^^^^^^^^
+
    * Saved last received location from a stream (saved in browser), if not
    * The first GPS location received from the stream, if not
    * The location of the robot (IP-based, if available), if not
@@ -75,6 +78,8 @@ Message structure
 ~~~~~~~
 
    Currently, we have two ways to get message templates from stream sources:
+    ^^^^^^^^^^^^^^^^^^^^
+
    * Via request of the message structure
    * Via reading the first message
 
