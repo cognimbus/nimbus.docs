@@ -41,6 +41,10 @@ Video manipulation
 
 Fleet monitoring page
 ~~~~~~~
+   .. image:: _static/img/release/4.png
+      :width: 400px
+      :target: #rover
+      :class: hover-popout
 
    In the fleet page, we added a monitoring tab, enabling the monitoring of multiple robots in the same fleet under one tab.
 
@@ -55,6 +59,10 @@ Fleet monitoring page
 
 Map viewer improvements
 ~~~~~~~
+   .. image:: _static/img/release/5.png
+      :width: 400px
+      :target: #rover
+      :class: hover-popout
 
    In the monitoring page of the robot, Map Viewer (google map/GPS view), the initial center of the map is now determined in the following way:
    * Saved last received location from a stream (saved in browser), if not
