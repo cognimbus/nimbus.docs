@@ -28,9 +28,11 @@ Video manipulation
    We now allow the user to set the video layout of the camera feed.
 
    We added settings for:
-   - Flip horizontal
-   - Flip vertical
-   - Rotate 90/180/270
+   ^^^^^^^^^^^^^^^^^^^^
+
+   * Flip horizontal
+   * Flip vertical
+   * Rotate 90/180/270
 
    .. image:: _static/img/release/2.png
       :width: 200px
@@ -55,18 +57,18 @@ Map viewer improvements
 ~~~~~~~
 
    In the monitoring page of the robot, Map Viewer (google map/GPS view), the initial center of the map is now determined in the following way:
-   - Saved last received location from a stream (saved in browser), if not
-   - The first GPS location received from the stream, if not
-   - The location of the robot (IP-based, if available), if not
-   - The middle of the ocean
-   - We moved map/satellite view toggle options to the viewer settings.
+   * Saved last received location from a stream (saved in browser), if not
+   * The first GPS location received from the stream, if not
+   * The location of the robot (IP-based, if available), if not
+   * The middle of the ocean
+   * We moved map/satellite view toggle options to the viewer settings.
 
 Message structure
 ~~~~~~~
 
    Currently, we have two ways to get message templates from stream sources:
-   - Via request of the message structure
-   - Via reading the first message
+   * Via request of the message structure
+   * Via reading the first message
 
    The problem: when the source publishes messages rarely or the stream source is input, the second way doesn’t work. We now get the message template initiated both ways.
 
