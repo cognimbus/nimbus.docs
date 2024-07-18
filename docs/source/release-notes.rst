@@ -32,6 +32,11 @@ Video manipulation
    - Flip vertical
    - Rotate 90/180/270
 
+   .. image:: _static/img/release/2.png
+      :width: 200px
+      :target: #rover
+      :class: hover-popout
+
 Fleet monitoring page
 ~~~~~~~
 
