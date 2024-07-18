@@ -7,10 +7,8 @@ Release Notes
    :local:
    :depth: 2
 
-.. collapse:: Relese18072024
-:open:
 
-Preset viewing options
+.. collapse:: Preset viewing options
 ----------------------
 
    We allow for each preset to select whether it is viewable.
@@ -33,7 +31,7 @@ Preset viewing options
 
    We will also soon release the ability to set a preset as default!
 
-Video manipulation
+.. collapse:: Video manipulation
 ------------------
 
    We now allow the user to set the video layout of the camera feed.
@@ -57,7 +55,7 @@ Monitoring page for fleets of robots
    5. In the settings, you can now select the robot, above the stream selection.
    6. The viewer is added to the fleet monitoring page.
 
-Map viewer improvements (Center of map)
+.. collapse:: Map viewer improvements (Center of map)
 ---------------------------------------
 
    In the monitoring page of the robot, Map Viewer (google map/GPS view), the initial center of the map is now determined in the following way:
@@ -66,12 +64,12 @@ Map viewer improvements (Center of map)
    - The location of the robot (IP-based, if available), if not
    - The middle of the ocean
 
-Map viewer improvements (viewing settings)
+.. collapse:: Map viewer improvements (viewing settings)
 ------------------------------------------
 
    We now moved map/satellite view toggle options to the viewer settings.
 
-Message template mechanism improvement
+.. collapse:: Message template mechanism improvement
 --------------------------------------
 
    Currently, we have two ways to get message templates from stream sources:
@@ -82,7 +80,7 @@ Message template mechanism improvement
 
    Note: If the message field is an array, we will display a spinner next to the array field until a message arrives and the structure is resolved (with a real array or by timeout).
 
-Bug Fixes
+.. collapse:: Bug Fixes
 ---------
 
    Online/Offline
@@ -90,6 +88,5 @@ Bug Fixes
 
    When scaling the system, some of the robots experienced disconnection from the cloud and were marked as offline although they reconnected to the new instances. This issue was fixed as part of addressing multiple backend instances.
 
-.. collapse:: Relese18062024
-:open:
+
 
