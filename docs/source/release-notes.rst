@@ -35,12 +35,13 @@ Video manipulation
    * Rotate 90/180/270
 
    .. image:: _static/img/release/2.png
-      :width: 400px
+      :width: 300px
       :target: #rover
       :class: hover-popout
 
 Fleet monitoring page
 ~~~~~~~
+
    .. image:: _static/img/release/4.png
       :width: 400px
       :target: #rover
@@ -60,8 +61,9 @@ Fleet monitoring page
 
 Map viewer improvements
 ~~~~~~~
+
    .. image:: _static/img/release/5.png
-      :width: 400px
+      :width: 300px
       :target: #rover
       :class: hover-popout
 
