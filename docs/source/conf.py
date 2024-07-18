@@ -34,7 +34,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_toolbox.collapse',
+    'sphinx_toolbox.collapse'
 ]
 
 source_suffix = [
