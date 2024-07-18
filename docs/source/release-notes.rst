@@ -5,7 +5,7 @@ Release Notes
 
 Release 18/07/2024
 
-.. collapse:: Preset viewing options
+Preset viewing options
 ----------------------
 
    We allow for each preset to select whether it is viewable.
@@ -28,7 +28,7 @@ Release 18/07/2024
 
    We will also soon release the ability to set a preset as default!
 
-.. collapse:: Video manipulation
+Video manipulation
 ------------------
 
    We now allow the user to set the video layout of the camera feed.
@@ -52,7 +52,7 @@ Monitoring page for fleets of robots
    5. In the settings, you can now select the robot, above the stream selection.
    6. The viewer is added to the fleet monitoring page.
 
-.. collapse:: Map viewer improvements (Center of map)
+Map viewer improvements (Center of map)
 ---------------------------------------
 
    In the monitoring page of the robot, Map Viewer (google map/GPS view), the initial center of the map is now determined in the following way:
@@ -61,12 +61,12 @@ Monitoring page for fleets of robots
    - The location of the robot (IP-based, if available), if not
    - The middle of the ocean
 
-.. collapse:: Map viewer improvements (viewing settings)
+Map viewer improvements (viewing settings)
 ------------------------------------------
 
    We now moved map/satellite view toggle options to the viewer settings.
 
-.. collapse:: Message template mechanism improvement
+Message template mechanism improvement
 --------------------------------------
 
    Currently, we have two ways to get message templates from stream sources:
@@ -77,7 +77,7 @@ Monitoring page for fleets of robots
 
    Note: If the message field is an array, we will display a spinner next to the array field until a message arrives and the structure is resolved (with a real array or by timeout).
 
-.. collapse:: Bug Fixes
+Bug Fixes
 ---------
 
    Online/Offline
