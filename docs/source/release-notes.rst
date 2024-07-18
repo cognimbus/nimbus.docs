@@ -35,7 +35,7 @@ Video manipulation
    * Rotate 90/180/270
 
    .. image:: _static/img/release/2.png
-      :width: 200px
+      :width: 400px
       :target: #rover
       :class: hover-popout
 
