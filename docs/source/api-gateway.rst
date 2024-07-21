@@ -152,7 +152,7 @@ Get All Streams (prod)::
     
 Get Data from a Specific Stream (staging)::
 
-    GET /robot/{robotId}/streams/{streamName}
+    GET /robot/{robotId}/stream?componentName=<YOUR_COMPONENT_NAME>&streamName=<YOUR_STREAM_NAME>&source=<YOUR_STREAM_SOURCE>
 
     Description: Fetches data from a specific stream for a robot.
 
