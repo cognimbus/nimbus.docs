@@ -53,7 +53,7 @@ List Robot IDs::
 
 Get a Specific Robot's Details::
 
-    GET /robots/{robotId}
+    GET /robot/{robotId}
 
     Description: Fetches details for a specific robot by ID.
 
