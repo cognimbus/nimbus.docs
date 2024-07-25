@@ -69,7 +69,7 @@ Get a Specific Robot's Details::
 Robot Metrics
 -------------
 
-Get All Metrics (prod)::
+Get All Metrics::
 
     GET /robots/metrics
 
@@ -94,7 +94,7 @@ Get All Metrics (prod)::
             ]
     }
 
-Get Robot Metrics (prod)::
+Get Robot Metrics ::
 
     GET /robot/{robotId}/metric/{metricId}
 
@@ -115,7 +115,7 @@ Streaming/Unary Data Management
 
 For streaming or sending commands directly to robots when robots are online. Rate limited to 1 second.
 
-Get All Streams (prod)::
+Get All Streams ::
 
     GET /robot/{robotId}/streams
 
@@ -150,9 +150,9 @@ Get All Streams (prod)::
    ]
 }
     
-Get Data from a Specific Stream (staging)::
+Get Data from a Specific Stream ::
 
-    GET /robot/{robotId}/stream?componentName=<YOUR_COMPONENT_NAME>&streamName=<YOUR_STREAM_NAME>&source=<YOUR_STREAM_SOURCE>
+    GET /robot/{robotId}/stream?componentName={ComponentName}&streamName={StreamName}&source={StreamSourceType}
 
     Description: Fetches data from a specific stream for a robot.
 
