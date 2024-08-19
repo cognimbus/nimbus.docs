@@ -34,10 +34,9 @@ You will now be able to monitor data directly from the robot (no cloud involved)
    
      Assuming the robot has an agent installed 
      
-    * Use the password provided 
-      * This can be changed in nimbus.json (/etc/nimbus/nimbus.json)
-      * This can be shown by running “nimbus session local” on the robot 
-      * It is displayed in the robot overview (“local” button)
+    * Set password for local connectivity in nimbus.json (/etc/nimbus/nimbus.json)
+    * See the local password by running “nimbus session local” on the robot 
+    * See the local password in the robot overview (“local” button)
     * the URL is HTTPS://IP/monitoring
     * To enable editing the local monitoring page of the robot 
     * LOCAL_EDIT_MODE in nimbus.json should be set to true.
