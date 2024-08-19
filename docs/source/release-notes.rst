@@ -40,7 +40,7 @@ You will now be able to monitor data directly from the robot (no cloud involved)
     * the URL is HTTPS://IP/monitoring
     * To enable editing the local monitoring page of the robot 
     * LOCAL_EDIT_MODE in nimbus.json should be set to true.
-    ** Specific ROS-related settings (domain ID etc…) can be set in nimbus.json
+    * Specific ROS-related settings (domain ID etc…) can be set in nimbus.json
 
 
 
