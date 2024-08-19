@@ -2,6 +2,43 @@
 
 Release Notes
 =============
+Release 19/08/2024
+----------------------
+
+CSV File option for chart viewers
+~~~~~~~
+
+You will now be able to select a CSV file to be used as input for a viewer. This can be:
+* A file from the robot
+* A file from the resource page, for example, one that was created by the recording 
+Will be available to the following viewers
+* Line chart
+* Pie chart
+* Bar chart
+* Area chart
+* Radar chart
+* Scatter chart
+* progress chart
+
+
+
+Local monitoring 
+~~~~~~~
+You will now be able to monitor data directly from the robot (no cloud involved) by knowing its IP, from the browser
+  
+   Setup
+   ^^^^^^^^^^^^^^^^^^^^
+   Assuming the robot has an agent installed 
+   * Use the password provided 
+   ** This can be changed in nimbus.json (/etc/nimbus/nimbus.json)
+   ** This can be shown by running “nimbus session local” on the robot 
+   ** It is displayed in the robot overview (“local” button)
+   * the URL is HTTPS://IP/monitoring
+   * To enable editing the local monitoring page of the robot 
+   ** LOCAL_EDIT_MODE in nimbus.json should be set to true.
+   ** Specific ROS-related settings (domain ID etc…) can be set in nimbus.json
+
+
 
 Release 18/07/2024
 ----------------------
