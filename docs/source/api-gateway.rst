@@ -8,7 +8,7 @@ General
 
 Create a token in the admin profile when logged in to your organization on the Cogniteam Cloud Platform.
 
-The base URL for the API is https://api.cognimbus.com/ApiGateway
+The base URL for the API is https://api.cognimbus.com/apigateway
 
 Login to API
 ------------
