@@ -42,15 +42,12 @@ List Robot IDs::
 
     Response example:
     {
-        "BasicData":
-            [
-            {"Id":"24029140-aa12-435a-a61f-f61ab1689580","Name":"test_prod1"},
-            {"Id":"907809dc-d787-41d6-8e77-163b50784041","Name":"Lynx"},
-            {"Id":"eee0b7f1-95f1-44e2-81b3-e671aa319861","Name":"AMR-8"}
-            ]
-        
-    }
-
+        "RobotDataList":[
+            {"BasicData":{"Id":"ed180114-c9b4-4874-a230-9e58cec09d1a","Name":"QA_Rover_Mini2"},"IsOnline":false},
+            {"BasicData":{"Id":"38407b76-39c8-45e2-a89e-180d79dfa7a8","Name":"prod1"},"IsOnline":true},
+            {"BasicData":{"Id":"bfc681d5-3b16-4669-8930-b1b4756eb057","Name":"dev3"},"IsOnline":true}
+                        ]}   
+ 
 Get a Specific Robot's Details::
 
     GET /robot/{robotId}
@@ -59,12 +56,45 @@ Get a Specific Robot's Details::
 
     Response example:
     {
-        "BasicData":{
-        "Id":"eee0b7f1-95f1-44e2-81b3-e671aa319861",
-        "Name":"AMR-8" },
-        "IsOnline":true,"LastTimeSeen":"2024-07-15T10:07:24.613579Z"
-        
+    "RobotData": {
+        "BasicData": {
+            "Id": "ed180114-c9b4-4874-a230-9e58cec09d1a",
+            "Name": "QA_Rover_Mini2"
+        },
+        "IsOnline": false
+    },
+    "FleetName": "testing",
+    "OrganizationName": "Cogniteam",
+    "LastTimeSeen": "2024-09-16T05:43:18.750927Z",
+    "Members": {
+        "OrgAdmins": {
+            "OrgAdmins": [
+                "user@cogniteam.com",
+                "or@cogniteam.com",
+                "eliordayari@cogniteam.com",
+                "lin@cogniteam.com",
+                "eyal@cogniteam.com",
+                "matvey@cogniteam.com",
+                "yakir@cogniteam.com",
+                "automation_admin@cogniteam.com",
+                "ari@cogniteam.com",
+                "yarimmeron@cogniteam.com",
+                "yarinmeron@cogniteam.com",
+                "saar@cogniteam.com",
+                "sergei@cogniteam.com",
+                "anton@cogniteam.com",
+                "shaharm4747@gmail.com",
+                "baruh@cogniteam.com",
+                "or_admin@cogniteam.com",
+                "shai@cogniteam.com",
+                "adi@cogniteam.com"
+            ]
+        },
+        "SharedUsers": {
+            "UserPermissions": []
+        }
     }
+}
 
 Robot Metrics
 -------------
