@@ -42,11 +42,12 @@ List Robot IDs::
 
     Response example:
     {
-        "RobotDataList":[
+        "RobotDataList":
+            [
             {"BasicData":{"Id":"ed180114-c9b4-4874-a230-9e58cec09d1a","Name":"QA_Rover_Mini2"},"IsOnline":false},
             {"BasicData":{"Id":"38407b76-39c8-45e2-a89e-180d79dfa7a8","Name":"prod1"},"IsOnline":true},
             {"BasicData":{"Id":"bfc681d5-3b16-4669-8930-b1b4756eb057","Name":"dev3"},"IsOnline":true} 
-                        ]
+            ]
     }   
  
 Get a Specific Robot's Details::
@@ -57,44 +58,61 @@ Get a Specific Robot's Details::
 
     Response example:
     {
-    "RobotData": {
-        "BasicData": {
-            "Id": "ed180114-c9b4-4874-a230-9e58cec09d1a",
-            "Name": "QA_Rover_Mini2"
+        "RobotData": {
+            "BasicData": {
+                "Id": "459fe5a6-69d4-49a7-aecb-7537e6e4dfae",
+                "Name": "AMR-Qualcomm-RB5"
+            },
+            "IsOnline": false
         },
-        "IsOnline": false
-    },
-    "FleetName": "testing",
-    "OrganizationName": "Cogniteam",
-    "LastTimeSeen": "2024-09-16T05:43:18.750927Z",
-    "Members": {
-        "OrgAdmins": {
-            "OrgAdmins": [
-                "user@cogniteam.com",
-                "or@cogniteam.com",
-                "eliordayari@cogniteam.com",
-                "lin@cogniteam.com",
-                "eyal@cogniteam.com",
-                "matvey@cogniteam.com",
-                "yakir@cogniteam.com",
-                "automation_admin@cogniteam.com",
-                "ari@cogniteam.com",
-                "yarimmeron@cogniteam.com",
-                "yarinmeron@cogniteam.com",
-                "saar@cogniteam.com",
-                "sergei@cogniteam.com",
-                "anton@cogniteam.com",
-                "shaharm4747@gmail.com",
-                "baruh@cogniteam.com",
-                "or_admin@cogniteam.com",
-                "shai@cogniteam.com",
-                "adi@cogniteam.com"
-            ]
-        },
-        "SharedUsers": {
-            "UserPermissions": []
+        "FleetName": "2222222",
+        "OrganizationName": "Cogniteam",
+        "LastTimeSeen": "2024-09-29T13:07:27.211444Z",
+        "Members": {
+            "OrgAdmins": {
+                "OrgAdmins": [
+                    "user@cogniteam.com",
+                    "or@cogniteam.com",
+                    "eliordayari@cogniteam.com",
+                    "lin@cogniteam.com",
+                    "eyal@cogniteam.com",
+                    "matvey@cogniteam.com",
+                    "yakir@cogniteam.com",
+                    "automation_admin@cogniteam.com",
+                    "ari@cogniteam.com",
+                    "yarimmeron@cogniteam.com",
+                    "yarinmeron@cogniteam.com",
+                    "saar@cogniteam.com",
+                    "sergei@cogniteam.com",
+                    "anton@cogniteam.com",
+                    "shaharm4747@gmail.com",
+                    "baruh@cogniteam.com",
+                    "or_admin@cogniteam.com",
+                    "shai@cogniteam.com",
+                    "adi@cogniteam.com"
+                ]
+            },
+            "SharedUsers": {
+                "UserPermissions": [
+                    {
+                        "UserId": "automationtestplaywright@gmail.com",
+                        "PermissionType": 1
+                    },
+                    {
+                        "UserId": "shai@cogniteam.com",
+                        "PermissionType": 3
+                    },
+                    {
+                        "UserId": "QA_user2@cogniteam.com",
+                        "PermissionType": 1
+                    },
+                    {
+                        "UserId": "lihi@cogniteam.com",
+                        "PermissionType": 1
+                    }
+                ]
+            }
         }
-    }
 }
 
 Robot Metrics
@@ -186,6 +204,32 @@ Get Data from a Specific Stream ::
     GET /robot/{robotId}/stream?componentName={ComponentName}&streamName={StreamName}&source={StreamSourceType}
 
     Description: Fetches data published on a stream, arriving from a robot (must be "output" direction).
+
+Get empty message ::
+
+    GET /streams/{streamType}/stream
+
+    { 
+        "EmptyMessage": "{ \"header\": { \"seq\": 0, \"stamp\": \"0\", \"frameId\": \"map\" }, \"childFrameId\": \"base_link\", \"pose\": { \"pose\": { \"position\": { \"x\": 0, \"y\": 0, \"z\": 0.0 }, \"orientation\": { \"x\": 0,             \"y\": 0, \"z\": 0, \"w\": 1 } }, \"covariance\": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] }, \"twist\": { \"twist\": { \"linear\": { \"x\": 0, \"y\":             0, \"z\": 0 }, \"angular\": { \"x\": 0, \"y\": 0, \"z\": 0 } }, \"covariance\": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] } }" 
+    }
+
+
+    Description: Get the structure of the desired message by the type.
+
+
+Post Data to a Specific Stream ::
+    POST /robot/{robotId}/streams/upload-stream
+
+
+ Body: 
+    {
+        "componentname":"data-publisher",
+        "streamname":"gps",
+        "source":"1",
+        "streamjson":"{"x":"1","y":"2","z":"3"}",
+        "datatype":"Nimbus.Messages.geometry_msgs.Point"
+    }
+
 
 Notes
 -----
