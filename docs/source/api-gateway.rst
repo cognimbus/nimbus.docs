@@ -209,12 +209,12 @@ Get empty message ::
 
     GET /streams/{streamType}/stream
 
+    Description: Get the structure of the desired message by the type.
+
     { 
         "EmptyMessage": "{ \"header\": { \"seq\": 0, \"stamp\": \"0\", \"frameId\": \"map\" }, \"childFrameId\": \"base_link\", \"pose\": { \"pose\": { \"position\": { \"x\": 0, \"y\": 0, \"z\": 0.0 }, \"orientation\": { \"x\": 0,             \"y\": 0, \"z\": 0, \"w\": 1 } }, \"covariance\": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] }, \"twist\": { \"twist\": { \"linear\": { \"x\": 0, \"y\":             0, \"z\": 0 }, \"angular\": { \"x\": 0, \"y\": 0, \"z\": 0 } }, \"covariance\": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] } }" 
     }
 
-
-    Description: Get the structure of the desired message by the type.
 
 
 Post Data to a Specific Stream ::
