@@ -218,17 +218,20 @@ Get empty message ::
 
 
 Post Data to a Specific Stream ::
+
     POST /robot/{robotId}/streams/upload-stream
 
+    Description: Post json to a specific stream, time out is 1 second 
 
- Body: 
-    {
-        "componentname":"data-publisher",
-        "streamname":"gps",
-        "source":"1",
-        "streamjson":"{"x":"1","y":"2","z":"3"}",
-        "datatype":"Nimbus.Messages.geometry_msgs.Point"
-    }
+
+     Body: 
+        {
+            "componentname":"data-publisher",
+            "streamname":"gps",
+            "source":"1",
+            "streamjson":"{"x":"1","y":"2","z":"3"}",
+            "datatype":"Nimbus.Messages.geometry_msgs.Point"
+        }
 
 
 Notes
