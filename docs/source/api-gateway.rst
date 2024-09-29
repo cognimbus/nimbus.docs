@@ -45,8 +45,9 @@ List Robot IDs::
         "RobotDataList":[
             {"BasicData":{"Id":"ed180114-c9b4-4874-a230-9e58cec09d1a","Name":"QA_Rover_Mini2"},"IsOnline":false},
             {"BasicData":{"Id":"38407b76-39c8-45e2-a89e-180d79dfa7a8","Name":"prod1"},"IsOnline":true},
-            {"BasicData":{"Id":"bfc681d5-3b16-4669-8930-b1b4756eb057","Name":"dev3"},"IsOnline":true}
-                        ]}   
+            {"BasicData":{"Id":"bfc681d5-3b16-4669-8930-b1b4756eb057","Name":"dev3"},"IsOnline":true} 
+                        ]
+    }   
  
 Get a Specific Robot's Details::
 
