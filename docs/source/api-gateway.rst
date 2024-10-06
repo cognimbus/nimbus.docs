@@ -35,7 +35,7 @@ List Robot IDs::
 
     Header: 
     {
-        "bearer": "..."
+         "Authorization":"bearer": "..."
     }
 
     Description: Retrieves a list of all robot IDs.
@@ -145,7 +145,7 @@ Get All Metrics::
 
 Get Robot Metrics ::
 
-    GET /robot/{robotId}/metric/{metricId}
+    GET /robot/{robotId}/metric/{metricType}
 
     Description: Fetches specific metric for robot.
 
