@@ -29,4 +29,5 @@ Cogniteam Cloud Platform
    monitoring
    settings
    api-gateway
+   local-agent
    release-notes
