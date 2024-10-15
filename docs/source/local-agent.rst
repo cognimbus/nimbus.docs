@@ -46,7 +46,7 @@ nimbus.json::
 
 Desktop app for local connectivity 
 -------------------------------------------------
-* Linux 
+* Linux https://drive.google.com/file/d/1Lo0jd3TAH43GYRW4-qGltu6x8xfI_uw2/view?usp=drive_link
 * Windows (coming soon)
 * Mac (coming soon)
 
