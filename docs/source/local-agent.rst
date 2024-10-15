@@ -5,9 +5,9 @@ Installing the agent without internet connectivity
 -------------------------------------------------
 * Place nimbusd in /bin/
 * Create a path /etc/nimbus/
-* copy the following to a nimbus.json config file in /etc/nimbus/nimbus.json
+* Copy the following to a nimbus.json config file in /etc/nimbus/nimbus.json
  * Change "password" admin to a strong password
- * Provide root only permissions 
+ * Save with root only permissions 
 
 
 nimbus.json::
@@ -54,4 +54,4 @@ Browser local connectivity
 -------------------------------------------------
 
 * In your terminal use ifconfig to find your local IP (i.e. 172.28.78.216)
-* open the browser at https://172.28.78.216:19993 and insert your password configured in the nimbus.json file
+* Open the browser at https://172.28.78.216:19993 and insert your password configured in the nimbus.json file
