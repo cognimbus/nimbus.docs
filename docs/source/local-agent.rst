@@ -46,6 +46,12 @@ nimbus.json::
 
 Desktop app for local connectivity 
 -------------------------------------------------
+* Linux 
+* Windows (coming soon)
+* Mac (coming soon)
 
-Browser connectivity 
+Browser local connectivity 
 -------------------------------------------------
+
+* In your terminal use ifconfig to find your local IP (i.e. 172.28.78.216)
+* open the browser at https://172.28.78.216:19993 and insert your password configured in the nimbus.json file
