@@ -24,7 +24,7 @@ Cogniteam Cloud Platform
    
    index
    installation-guide
-   robots-tab
+   robots
    robots-overview
    monitoring
    settings
