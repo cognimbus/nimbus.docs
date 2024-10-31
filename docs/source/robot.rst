@@ -185,7 +185,7 @@ robot's ports and what is connected to these ports.
 Now, let's jump over to the Monitoring tab, and see what we can do.
 
 Monitoring & Teleoperation Tab
-==============================
+----------------
 
 .. image:: _static/img/media/image21.png
    :width: 6.5in
@@ -377,7 +377,7 @@ choose the
 
 
 Settings
-========
+----------------
 
 Specific robot settings are found in the robot page under the settings tab
 
