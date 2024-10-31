@@ -28,9 +28,9 @@ No internet connectivity
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 * Terminal 
 * GRPC (i.e. python)
-* Browser (localhost/local IP)
-* Dedicated desktop app 
+* `Dedicated desktop app <https://docs.cognimbus.com/en/latest/local-agent.html#desktop-app-for-local-connectivity>`_
+* `Browser (localhost/local IP) <https://docs.cognimbus.com/en/latest/local-agent.html#browser-local-connectivity>`_
 
 With internet connectivity 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-* REST API
+* `REST API <https://docs.cognimbus.com/en/latest/api-gateway.html#api-gateway>`_ 
