@@ -14,21 +14,21 @@ ROS-Based Systems
 ^^^^^^^^^^^^^^^^^
 
 * For **ROS1 Noetic** and **ROS2 Humble**, no additional code is necessary. Our agent can automatically reflect all available topics from the robot to the cloud.
-  * Supports all standard ROS messages.
-  * Uses **RTI DDS** for ROS2.
-  * Compatible with a wide range of custom messages from our sensor partners.
-  * Our solutions team can assist with incorporating non-standard messages as part of our regular support.
-  * Support is available for other ROS versions, though minor adjustments may be required if standard message definitions vary.
+ * Supports all standard ROS messages.
+ * Uses **RTI DDS** for ROS2.
+ * Compatible with a wide range of custom messages from our sensor partners.
+ * Our solutions team can assist with incorporating non-standard messages as part of our regular support.
+ * Support is available for other ROS versions, though minor adjustments may be required if standard message definitions vary.
 
 Non-ROS-Based Systems
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Cogniteam Cloud Platform agents can stream data from non-ROS sources.
-  * The agent supports data streaming from and to CSV formats.
-  * Our solutions team can provide custom components to convert data to ROS, deployed and managed by the agent. Examples of past integrations include:
-    * **MQTT support** for pole lights.
-    * **RTSP support** for IP cameras.
-    * Our solutions team can extend native support to other protocols as needed.
+ * The agent supports data streaming from and to CSV formats.
+ * Our solutions team can provide custom components to convert data to ROS, deployed and managed by the agent. Examples of past integrations include:
+  * **MQTT support** for pole lights.
+  * **RTSP support** for IP cameras.
+  * Our solutions team can extend native support to other protocols as needed.
 
 Accessing Data
 --------------
