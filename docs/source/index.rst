@@ -26,7 +26,6 @@ Cogniteam Cloud Platform
    installation-guide
    robots
    robot
-   settings
    api-gateway
    local-agent
    release-notes
