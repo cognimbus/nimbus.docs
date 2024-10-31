@@ -1,4 +1,4 @@
-Robot page
+Robot Page
 ==============
 
 On each specific robot, the first tab will be the robot's overview tab. 
