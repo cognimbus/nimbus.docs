@@ -4,7 +4,13 @@ Integration
 System Integration
 --------------------
 
-Cogniteam Cloud Platform agent is installed as a service on the edge device and subscribes/publishes data to ROS  
+Cogniteam Cloud Platform agent is installed as a service on the edge device and can subscribe/publish data directly to ROS. It is not dependent on ROS being installed on the host and can run inside a container. 
+
+* Cogniteam Cloud Platform agents use GRPC to communicate with the cloud
+* Cogniteam Cloud Platform agents support WebRTC for low-latency video transmission both locally and globally. This feature can be also used on network-isolated systems. 
+* Cogniteam Cloud Platform agents are designed to load balance data to optimize network performance. This includes Point Cloud data. 
+
+
 
 ROS Based Systems 
 ^^^^^^^^^^^^^^^^^^^
