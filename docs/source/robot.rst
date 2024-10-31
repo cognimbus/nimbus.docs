@@ -1,5 +1,5 @@
-Robot's Overview and Control
-============================
+Robot page
+==============
 
 On each specific robot, the first tab will be the robot's overview tab. 
 
