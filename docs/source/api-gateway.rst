@@ -44,9 +44,8 @@ List Robot IDs::
     {
         "RobotDataList":
             [
-            {"BasicData":{"Id":"ed180114-c9b4-4874-a230-9e58cec09d1a","Name":"QA_Rover_Mini2"},"IsOnline":false},
-            {"BasicData":{"Id":"38407b76-39c8-45e2-a89e-180d79dfa7a8","Name":"prod1"},"IsOnline":true},
-            {"BasicData":{"Id":"bfc681d5-3b16-4669-8930-b1b4756eb057","Name":"dev3"},"IsOnline":true} 
+            {"BasicData":{"Id":"38407b76-39c8-45e2-a89e-180d79dfa7a8","Name":"test1"},"IsOnline":true},
+            {"BasicData":{"Id":"bfc681d5-3b16-4669-8930-b1b4756eb057","Name":"test2"},"IsOnline":true} 
             ]
     }   
  
@@ -72,44 +71,16 @@ Get a Specific Robot's Details::
             "OrgAdmins": {
                 "OrgAdmins": [
                     "user@cogniteam.com",
-                    "or@cogniteam.com",
-                    "eliordayari@cogniteam.com",
-                    "lin@cogniteam.com",
-                    "eyal@cogniteam.com",
-                    "matvey@cogniteam.com",
-                    "yakir@cogniteam.com",
-                    "automation_admin@cogniteam.com",
-                    "ari@cogniteam.com",
-                    "yarimmeron@cogniteam.com",
-                    "yarinmeron@cogniteam.com",
-                    "saar@cogniteam.com",
-                    "sergei@cogniteam.com",
-                    "anton@cogniteam.com",
-                    "shaharm4747@gmail.com",
-                    "baruh@cogniteam.com",
-                    "or_admin@cogniteam.com",
-                    "shai@cogniteam.com",
-                    "adi@cogniteam.com"
+                    ...
                 ]
             },
             "SharedUsers": {
                 "UserPermissions": [
                     {
-                        "UserId": "automationtestplaywright@gmail.com",
-                        "PermissionType": 1
-                    },
-                    {
-                        "UserId": "shai@cogniteam.com",
-                        "PermissionType": 3
-                    },
-                    {
                         "UserId": "QA_user2@cogniteam.com",
                         "PermissionType": 1
                     },
-                    {
-                        "UserId": "lihi@cogniteam.com",
-                        "PermissionType": 1
-                    }
+                    ....
                 ]
             }
         }
