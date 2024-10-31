@@ -26,7 +26,6 @@ Cogniteam Cloud Platform
    installation-guide
    robots
    robot
-   monitoring
    settings
    api-gateway
    local-agent
