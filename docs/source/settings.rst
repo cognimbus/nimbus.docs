@@ -1,9 +1,7 @@
 Settings
 ========
 
-By now you saw how easy it is to view different robot streams and
-send different remote actions from anywhere in the world. Now, it is
-time to delve into more details as we explore the settings tab.
+Specific robot settings are found in the robot page under the settings tab
 
 General Settings
 ----------------
@@ -20,14 +18,6 @@ then whenever the robot restarts, it automatically checks if it has
 the most updated version of its configuration, and downloads and
 deploys it automatically if needed.
 
-**Enable records auto-delete**
-Delete records from the robot automatically after uploading them to
-the cloud. Any records the robot may store can be uploaded to the
-cloud once the robot is online. To save local storage, check this
-option.
-
-**Remap ROS topics**
-Allow to automatically remap topics for better performance. ???
 
 Cloud Provider
 --------------
