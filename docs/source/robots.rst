@@ -1,7 +1,7 @@
 Robots Table
 ==========
 
-This page enbale to to list all your robots. You can toggle between a “List View” and a “Map View”.
+This page enbales to monitor all your robots in one place. You can toggle between a “List View” and a “Map View”.
 Use the top left “CREATE NEW ROBOT” button to add new robots - in the same way you applied 
 earlier. When you'll have many robots, use the search bar to find 
 any specific robots you are looking for. 
