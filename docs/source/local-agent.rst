@@ -44,7 +44,7 @@ nimbus.json::
 
 * Run /bin/nimbusd as a daemon using chron or as a service in your Linux 
 
-Linux Desktop app for local connectivity 
+Desktop app for local connectivity 
 -------------------------------------------------
 
 .. _`Nimbus`: index.md
@@ -52,12 +52,9 @@ Linux Desktop app for local connectivity
 
    .. image:: _static/img/Tux.png
       :width: 100px
-      :target: https://drive.google.com/file/d/1Lo0jd3TAH43GYRW4-qGltu6x8xfI_uw2/view?usp=drive_link
       :class: hover-popout
 
-
-* Supported Linux 
- * X86 modern ubuntu
+* `X86 Ubuntu linux <https://drive.google.com/file/d/1Lo0jd3TAH43GYRW4-qGltu6x8xfI_uw2/view?usp=drive_link>`_
 
 Browser local connectivity 
 -------------------------------------------------
