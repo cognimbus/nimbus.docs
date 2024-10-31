@@ -1,4 +1,4 @@
-Installation guide
+Installation Guide
 ==================
 
 Welcome to Cogniteam's Cloud Platform! This installation guide will walk you through the process of signing up and installing the Agent software on your robot. Follow these steps to get started:
