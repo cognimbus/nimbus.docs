@@ -25,7 +25,7 @@ Cogniteam Cloud Platform
    index
    installation-guide
    robots
-   robots-overview
+   robot
    monitoring
    settings
    api-gateway
