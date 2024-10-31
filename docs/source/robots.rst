@@ -1,11 +1,8 @@
-Robots Tab
+Robots Table
 ==========
 
-This tab depicts the list of your robots. You can toggle between a “List View” and a “Map View”.
-Right now, you probably have only one robot installed. 
-That's ok, with the help of the Cogniteam Cloud Platform 
-you can grow wherever you need. Just use the top left “CREATE 
-NEW ROBOT” button to add new robots - in the same way you applied 
+This page enbale to to list all your robots. You can toggle between a “List View” and a “Map View”.
+Use the top left “CREATE NEW ROBOT” button to add new robots - in the same way you applied 
 earlier. When you'll have many robots, use the search bar to find 
 any specific robots you are looking for. 
 
