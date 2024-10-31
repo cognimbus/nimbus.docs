@@ -24,6 +24,7 @@ Cogniteam Cloud Platform
    
    index
    installation-guide
+   system-integration
    robots
    robot
    api-gateway
