@@ -11,7 +11,7 @@ Nimbus and Nimbusd
 Configuration file nimbus.json
 -------------------------------------------------
 * Create a path /etc/nimbus/
-* Copy the following to a nimbus.json config file in /etc/nimbus/nimbus.json
+* Copy the following to a nimbus.json config file to /etc/nimbus/nimbus.json
  * Change "password" admin to a strong password
  * Save with root-only permissions 
  * Configure local ROS settings (such as ROS_DOMAIN_ID)
