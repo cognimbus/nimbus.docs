@@ -72,12 +72,14 @@ How to Use
 ^^^^^^^^^^^
 
 1. Save the file and reload the systemd daemon
+
 .. code-block:: bash
    :linenos:
 
     sudo systemctl daemon-reload
 
 2. Enable the service to start at boot
+
 .. code-block:: bash
    :linenos:
 
@@ -85,6 +87,7 @@ How to Use
 
 
 3. Start the service
+
 .. code-block:: bash
    :linenos:
 
