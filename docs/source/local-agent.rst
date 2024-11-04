@@ -1,4 +1,4 @@
-Local Agent guide
+Local Agent 
 ==================
 
 This guide applies to situations where a device is isolated from the network. In such cases, you will need to manually transfer the necessary files and configure the settings. Once this process is complete, all monitoring functionalities typically available in the cloud can be accessed locally through a browser or a dedicated desktop application.
