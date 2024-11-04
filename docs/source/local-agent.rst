@@ -8,6 +8,11 @@ Installing the agent without internet connectivity
 * Copy the following to a nimbus.json config file in /etc/nimbus/nimbus.json
  * Change "password" admin to a strong password
  * Save with root-only permissions 
+ * Configure local ROS settings (such as ROS_DOMAIN_ID)
+
+. note::
+    
+  use "nimbus system reload" to apply the changes
 
 
 nimbus.json::
