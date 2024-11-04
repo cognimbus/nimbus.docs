@@ -47,7 +47,64 @@ nimbus.json::
       "localRos2DomainId": 0
     }
 
-* Run /bin/nimbusd as a daemon using chron or as a service in your Linux 
+
+Set agent as systemd Sevice 
+------------------
+
+* Create a service file, e.g., /etc/systemd/system/nimbusd.service:
+
+.. code-block:: bash
+   :linenos:
+    
+    [Unit]
+    Description=Nimbus Daemon
+    After=network.target
+
+    [Service]
+    ExecStart=/bin/nimbusd
+    Restart=on-failure
+    User=nimbus  # Replace with the appropriate user if necessary
+    
+    [Install]
+    WantedBy=multi-user.target
+
+How to Use
+^^^^^^^^^^^
+
+1. Save the file and reload the systemd daemon
+.. code-block:: bash
+   :linenos:
+
+    sudo systemctl daemon-reload
+
+2. Enable the service to start at boot
+.. code-block:: bash
+   :linenos:
+
+    sudo systemctl enable nimbusd
+
+
+3. Start the service
+.. code-block:: bash
+   :linenos:
+
+    sudo systemctl start nimbusd
+
+
+
+
+Set agent as chron Job 
+------------------
+If you prefer cron, use crontab for scheduling the job:
+
+.. code-block:: bash
+   :linenos:
+
+    @reboot /bin/nimbusd
+
+Add this line to your crontab using crontab -e to run /bin/nimbusd on system reboot.
+
+
 
 Desktop app for local connectivity 
 -------------------------------------------------
