@@ -109,6 +109,10 @@ Add this line to your crontab using crontab -e to run /bin/nimbusd on system reb
 Desktop app for local connectivity 
 -------------------------------------------------
 
+.. note::
+    
+  Experimental
+
 .. _`Nimbus`: index.md
 .. _`Nimbus Agent`:
 
@@ -116,7 +120,7 @@ Desktop app for local connectivity
       :width: 100px
       :class: hover-popout
 
-* `X86 Ubuntu linux <https://drive.google.com/file/d/1Lo0jd3TAH43GYRW4-qGltu6x8xfI_uw2/view?usp=drive_link>`_
+* Click here to download deb file -> `X86 Ubuntu linux <https://drive.google.com/file/d/1Lo0jd3TAH43GYRW4-qGltu6x8xfI_uw2/view?usp=drive_link>`_
 
 Browser local connectivity 
 -------------------------------------------------
