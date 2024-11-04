@@ -12,7 +12,7 @@ Installing the agent without internet connectivity
 
 .. note::
     
-  use "nimbus system reload" to apply the changes
+  Nimbusd needs to be restarted to apply changes. If running as a service, use "nimbus system reload" to apply the changes
 
 
 nimbus.json::
