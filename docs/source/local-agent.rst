@@ -1,9 +1,15 @@
 Local Agent guide
 ==================
 
-Installing the agent without internet connectivity
+Nimbus and Nimbusd
 -------------------------------------------------
-* Place nimbusd,nimbus in /bin/
+
+* Place nimbusd and nimbus in /bin/
+* Nimbusd is the main program
+* Nimbus is the CLI for nimbusd
+
+Configuration file nimbus.json
+-------------------------------------------------
 * Create a path /etc/nimbus/
 * Copy the following to a nimbus.json config file in /etc/nimbus/nimbus.json
  * Change "password" admin to a strong password
