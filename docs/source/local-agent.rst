@@ -10,7 +10,7 @@ Installing the agent without internet connectivity
  * Save with root-only permissions 
  * Configure local ROS settings (such as ROS_DOMAIN_ID)
 
-note::
+.. note::
     
   use "nimbus system reload" to apply the changes
 
