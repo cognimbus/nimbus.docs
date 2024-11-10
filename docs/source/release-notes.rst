@@ -18,11 +18,11 @@ A location in 3D can be now visualized and colored. Visualization options includ
 * Device mesh -  A mesh, uploaded by the user or available in the hub
 
    .. image:: _static/img/release/3D-rgb1.png
-      :width: 200px
+      :width: 300px
       :target: #rover
       :class: hover-popout
    .. image:: _static/img/release/3D-rgb2.png
-      :width: 200px
+      :width: 300px
       :target: #rover
       :class: hover-popout
 
