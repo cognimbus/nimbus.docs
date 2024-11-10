@@ -17,6 +17,15 @@ A location in 3D can be now visualized and colored. Visualization options includ
 * Axis - 3D axis
 * Device mesh -  A mesh, uploaded by the user or available in the hub
 
+   .. image:: _static/img/release/3D-rgb1.png
+      :width: 200px
+      :target: #rover
+      :class: hover-popout
+   .. image:: _static/img/release/3D-rgb2.png
+      :width: 200px
+      :target: #rover
+      :class: hover-popout
+
 For position layers, we have now a new centering option 
 
 * Clicking it once will keep the view centered
