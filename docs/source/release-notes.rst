@@ -48,6 +48,7 @@ Marker editor in 3D viewer
 ~~~~~~~
 
 Improved usage of markers in the 3D viewer
+
 * In 3d viewer settings, it is now possible to set a stream for marker publishing
 * If defined, a new button called “markers” will be enabled
 * Once the “marker” button is clicked
