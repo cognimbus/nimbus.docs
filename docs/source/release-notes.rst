@@ -23,15 +23,15 @@ For position layers, we have now a new centering option
 * Clicking it again will keep the view aligned with the position orientation  
 
    .. image:: _static/img/release/3D-c1.png
-      :width: 300px
+      :width: 200px
       :target: #rover
       :class: hover-popout
    .. image:: _static/img/release/3D-c2.png
-      :width: 300px
+      :width: 200px
       :target: #rover
       :class: hover-popout
    .. image:: _static/img/release/3D-c3.png
-      :width: 300px
+      :width: 200px
       :target: #rover
       :class: hover-popout
 
