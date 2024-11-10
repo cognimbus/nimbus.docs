@@ -20,6 +20,19 @@ For position layers, we have now a new centering option
 * Clicking it once will keep the view centered
 * Clicking it again will keep the view aligned with the position orientation  
 
+   .. image:: _static/img/release/3D-c1.png
+      :width: 300px
+      :target: #rover
+      :class: hover-popout
+   .. image:: _static/img/release/3D-c2.png
+      :width: 300px
+      :target: #rover
+      :class: hover-popout
+   .. image:: _static/img/release/3D-c3.png
+      :width: 300px
+      :target: #rover
+      :class: hover-popout
+
 Marker editor functionality in 3D viewer
 ~~~~~~~
 
