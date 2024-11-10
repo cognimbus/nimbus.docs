@@ -35,7 +35,7 @@ For position layers, we have now a new centering option
       :target: #rover
       :class: hover-popout
 
-Marker editor functionality in 3D viewer
+Marker editor in 3D viewer
 ~~~~~~~
 
 Improved usage of markers in the 3D viewer
