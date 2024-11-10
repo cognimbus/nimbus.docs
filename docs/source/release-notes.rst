@@ -2,6 +2,34 @@
 
 Release Notes
 =============
+
+Release 29/10/2024
+----------------------
+
+3D viewer layer options
+~~~~~~~
+
+Improved visualization for device/robot location and coloring options:
+A location in 3D can be now visualized and colored. Visualization options include
+* Arrow - a simple arrow-like icon with location and direction
+* Icon - a selectable icon from a set of icons, direction is shown on the outer perimeter 
+* Axis - 3D axis
+* Device mesh -  A mesh, uploaded by the user or available in the hub
+
+For position layers, we have now a new centering option 
+* Clicking it once will keep the view centered
+* Clicking it again will keep the view aligned with the position orientation  
+
+Marker editor functionality in 3D viewer
+~~~~~~~
+
+Improved usage of markers in the 3D viewer
+* In 3d viewer settings, it is now possible to set a stream for marker publishing
+* If defined, a new button called “markers” will be enabled
+* Once the “marker” button is clicked
+ * An empty list below the button will be visible called makers, with options to add, download (JSON all markers), upload (same JSON for all markers), Toggle to see or hide (like layer), delete and a button to send all markers
+
+
 Release 19/08/2024
 ----------------------
 
