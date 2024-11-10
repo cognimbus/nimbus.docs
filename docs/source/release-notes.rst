@@ -29,6 +29,10 @@ Improved usage of markers in the 3D viewer
 * Once the “marker” button is clicked
  * An empty list below the button will be visible called makers, with options to add, download (JSON all markers), upload (same JSON for all markers), Toggle to see or hide (like layer), delete and a button to send all markers
 
+.. image:: _static/img/release/3D-markers.png
+  :width: 300px
+  :target: #rover
+  :class: hover-popout
 
 Release 19/08/2024
 ----------------------
