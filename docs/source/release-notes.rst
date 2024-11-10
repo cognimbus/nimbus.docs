@@ -11,12 +11,14 @@ Release 29/10/2024
 
 Improved visualization for device/robot location and coloring options:
 A location in 3D can be now visualized and colored. Visualization options include
+
 * Arrow - a simple arrow-like icon with location and direction
 * Icon - a selectable icon from a set of icons, direction is shown on the outer perimeter 
 * Axis - 3D axis
 * Device mesh -  A mesh, uploaded by the user or available in the hub
 
 For position layers, we have now a new centering option 
+
 * Clicking it once will keep the view centered
 * Clicking it again will keep the view aligned with the position orientation  
 
