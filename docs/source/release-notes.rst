@@ -23,14 +23,14 @@ Teleoperation viewer settings are now better!
 ~~~~~~~
 
 * Improved Teleoperation Settings 
-  * The viewer now offers a more seamless and user-friendly experience.
+ * The viewer now offers a more seamless and user-friendly experience.
 * Support for Joy Message Types
-  * Users can now send Joy messages directly through the teleoperation viewer.
-  * These messages are generated based on input from a connected physical joystick.
+ * Users can now send Joy messages directly through the teleoperation viewer.
+ * These messages are generated based on input from a connected physical joystick.
 
 * Automatic Control Model Selection
-  * There's no longer a need to manually select a movement control model (e.g., Ackermann or Twist).
-  * The system automatically detects and applies the appropriate control model by inferring it from the incoming message type.
+ * There's no longer a need to manually select a movement control model (e.g., Ackermann or Twist).
+ * The system automatically detects and applies the appropriate control model by inferring it from the incoming message type.
 
 This update ensures smoother integration and better adaptability for a wide range of teleoperation setups.
 
