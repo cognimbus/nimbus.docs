@@ -3,6 +3,52 @@
 Release Notes
 =============
 
+
+Release 24/11/2024
+----------------------
+
+Support for Azure SSO (Single Sign-on)
+~~~~~~~
+Azure Single Sign-On (SSO) is a feature provided by Azure Active Directory (Azure AD) that allows users to authenticate once and gain access to multiple applications and services without needing to log in again for each one
+
+   .. image:: _static/img/release/sso.png
+      :width: 300px
+      :target: #rover
+      :class: hover-popout
+
+* In addition to Google SSO, Azure SSO is now also supported
+
+
+Teleoperation viewer settings are now better!
+~~~~~~~
+
+* Improved Teleoperation Settings 
+  * The viewer now offers a more seamless and user-friendly experience.
+* Support for Joy Message Types
+  * Users can now send Joy messages directly through the teleoperation viewer.
+  * These messages are generated based on input from a connected physical joystick.
+
+* Automatic Control Model Selection
+  * There's no longer a need to manually select a movement control model (e.g., Ackermann or Twist).
+  * The system automatically detects and applies the appropriate control model by inferring it from the incoming message type.
+
+This update ensures smoother integration and better adaptability for a wide range of teleoperation setups.
+
+More layer settings options in the 3D viewer
+~~~~~~~
+
+More coloring options for point clouds 
+
+   .. image:: _static/img/release/Lidar1.png
+      :width: 300px
+      :target: #rover
+      :class: hover-popout
+   .. image:: _static/img/release/Lidar.png
+      :width: 300px
+      :target: #rover
+      :class: hover-popout
+
+
 Release 29/10/2024
 ----------------------
 
